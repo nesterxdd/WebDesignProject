@@ -22,7 +22,22 @@ namespace WebDesignProject.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("Category", b =>
+            modelBuilder.Entity("CategoryResource", b =>
+                {
+                    b.Property<int>("CategoriesId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ResourcesId")
+                        .HasColumnType("int");
+
+                    b.HasKey("CategoriesId", "ResourcesId");
+
+                    b.HasIndex("ResourcesId");
+
+                    b.ToTable("CategoryResource");
+                });
+
+            modelBuilder.Entity("WebDesignProject.Data.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -53,50 +68,20 @@ namespace WebDesignProject.Migrations
 
                     b.Property<string>("Description")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Metadata")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
 
                     b.Property<string>("Title")
                         .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
 
-                    b.Property<string>("Type")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<DateTime>("UpdatedAt")
+                        .HasColumnType("datetime2");
 
                     b.HasKey("Id");
 
                     b.ToTable("Resources");
-                });
-
-            modelBuilder.Entity("WebDesignProject.Data.ResourceCategory", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
-
-                    b.Property<int>("CategoryId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("ResourceId")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CategoryId");
-
-                    b.HasIndex("ResourceId");
-
-                    b.ToTable("ResourceCategories");
                 });
 
             modelBuilder.Entity("WebDesignProject.Data.Review", b =>
@@ -175,23 +160,19 @@ namespace WebDesignProject.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("WebDesignProject.Data.ResourceCategory", b =>
+            modelBuilder.Entity("CategoryResource", b =>
                 {
-                    b.HasOne("Category", "Category")
-                        .WithMany("ResourceCategories")
-                        .HasForeignKey("CategoryId")
+                    b.HasOne("WebDesignProject.Data.Category", null)
+                        .WithMany()
+                        .HasForeignKey("CategoriesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("WebDesignProject.Data.Resource", "Resource")
-                        .WithMany("ResourceCategories")
-                        .HasForeignKey("ResourceId")
+                    b.HasOne("WebDesignProject.Data.Resource", null)
+                        .WithMany()
+                        .HasForeignKey("ResourcesId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Category");
-
-                    b.Navigation("Resource");
                 });
 
             modelBuilder.Entity("WebDesignProject.Data.Review", b =>
@@ -213,15 +194,8 @@ namespace WebDesignProject.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Category", b =>
-                {
-                    b.Navigation("ResourceCategories");
-                });
-
             modelBuilder.Entity("WebDesignProject.Data.Resource", b =>
                 {
-                    b.Navigation("ResourceCategories");
-
                     b.Navigation("Reviews");
                 });
 

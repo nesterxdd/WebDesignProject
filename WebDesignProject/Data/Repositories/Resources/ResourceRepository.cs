@@ -16,7 +16,8 @@ namespace WebDesignProject.Data.Repositories
         public async Task<IEnumerable<Resource>> GetAsync()
         {
             return await _mycontext.Resources
-                .Include(r => r.Reviews) // Include reviews for all resources
+                .Include(r => r.Reviews) 
+                .Include(r => r.Categories)
                 .ToListAsync();
         }
 
@@ -24,11 +25,16 @@ namespace WebDesignProject.Data.Repositories
         {
             return await _mycontext.Resources
             .Include(r => r.Reviews) 
+            .Include(r => r.Categories)
             .FirstOrDefaultAsync(r => r.Id == id);
         }
 
-        public async Task<Resource> InsertAsync(Resource resource)
+        public async Task<Resource> InsertAsync(Resource resource, ICollection<int> categoryIds)
         {
+            var categories = await _mycontext.Categories.Where(c => categoryIds.Contains(c.Id)).ToListAsync();
+
+            resource.Categories = categories;
+
             _mycontext.Resources.Add(resource);
             await _mycontext.SaveChangesAsync();
             return resource;
@@ -40,8 +46,12 @@ namespace WebDesignProject.Data.Repositories
             await _mycontext.SaveChangesAsync();
         }
 
-        public async Task<Resource> UpdateAsync(Resource resource)
+        public async Task<Resource> UpdateAsync(Resource resource, ICollection<int> categoryIds)
         {
+            var categories = await _mycontext.Categories.Where(c => categoryIds.Contains(c.Id)).ToListAsync();
+
+            resource.Categories = categories;
+
             _mycontext.Resources.Update(resource);
             await _mycontext.SaveChangesAsync();
             return resource;

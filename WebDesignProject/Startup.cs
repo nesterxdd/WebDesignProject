@@ -1,28 +1,34 @@
 using WebDesignProject.Data;
 using AutoMapper;
 using WebDesignProject.Data.Repositories;
-public class Startup
+using WebDesignProject.Data.Repositories.Reviews;
+namespace WebDesignProject
 {
-    public void ConfigureServices(IServiceCollection services)
+    public class Startup
     {
-        services.AddDbContext<MyContext>();
-        services.AddAutoMapper(typeof(Startup));
-        services.AddControllers();
-        services.AddTransient<IResourceRepository, ResourceRepository>();
-        services.AddTransient<IReviewRepository, ReviewRepository>();
-    }
-
-    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
-    {
-        if (env.IsDevelopment())
+        public void ConfigureServices(IServiceCollection services)
         {
-            app.UseDeveloperExceptionPage();
+            services.AddDbContext<MyContext>();
+            services.AddAutoMapper(typeof(Startup));
+            services.AddControllers();
+            services.AddTransient<IResourceRepository, ResourceRepository>();
+            services.AddTransient<IReviewRepository, ReviewRepository>();
+            services.AddTransient<ICategoryRepository, CategoryRepository>();
+            services.AddTransient<IUserRepository, UserRepository>();
         }
 
-        app.UseRouting();
-        app.UseEndpoints(endpoints =>
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            endpoints.MapControllers();
-        });
+            if (env.IsDevelopment())
+            {
+                app.UseDeveloperExceptionPage();
+            }
+
+            app.UseRouting();
+            app.UseEndpoints(endpoints =>
+            {
+                endpoints.MapControllers();
+            });
+        }
     }
 }

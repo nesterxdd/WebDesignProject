@@ -44,14 +44,14 @@ namespace WebDesignProject
         }
 
         [HttpPost]
-        public async Task<ActionResult<Resource>> Post(CreateResourceDto resourcedto)
+        public async Task<ActionResult<Resource>> Post(CreateResourceDto resourceDto)
         {
-            var resource = _mapper.Map<Resource>(resourcedto);
-            await _iresourcerepository.InsertAsync(resource);
+            var resource = _mapper.Map<Resource>(resourceDto);
 
-            //201
-            //Created Resource
-            return Created($"/api/topics/{resource.Id}", _mapper.Map<ResourceDto>(resource));
+            // Insert the resource with categories
+            await _iresourcerepository.InsertAsync(resource, resourceDto.categoriesIDs);
+
+            return Created($"/api/resource/{resource.Id}", _mapper.Map<ResourceDto>(resource));
         }
 
         [HttpPut("{id}")]
@@ -60,14 +60,13 @@ namespace WebDesignProject
             var resource = await _iresourcerepository.GetAsync(id);
             if (resource == null)
             {
-                return NotFound($"topic with id:{id} does not exist");
+                return NotFound($"Resource with id:{id} does not exist");
             }
 
+            // Update the resource properties and associate categories
             _mapper.Map(updateResourceDto, resource);
+            await _iresourcerepository.UpdateAsync(resource, updateResourceDto.categoriesIDs);
 
-            await _iresourcerepository.UpdateAsync(resource);
-
-            //return _mapper.Map<ResourceDto>(resource);
             return Ok(_mapper.Map<ResourceDto>(resource));
         }
 

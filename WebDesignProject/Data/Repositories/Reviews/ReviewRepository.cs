@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace WebDesignProject.Data.Repositories
+namespace WebDesignProject.Data.Repositories.Reviews
 {
     public class ReviewRepository : IReviewRepository
     {
@@ -24,7 +24,7 @@ namespace WebDesignProject.Data.Repositories
         public async Task InsertAsync(Review review)
         {
             _mycontext.Reviews.Add(review);
-            await _mycontext.SaveChangesAsync();   
+            await _mycontext.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(Review review)

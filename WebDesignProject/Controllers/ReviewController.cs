@@ -1,8 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using WebDesignProject.Data;
-using WebDesignProject.Data.Dtos.Reviews;
-using WebDesignProject.Data.Repositories;
+using WebDesignProject.Data.Repositories.Reviews;
 
 namespace WebDesignProject.Controllers
 {

@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace WebDesignProject.Data
+namespace WebDesignProject
 {
     public class Review
     {

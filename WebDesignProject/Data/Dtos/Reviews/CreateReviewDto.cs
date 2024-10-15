@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace WebDesignProject.Data.Dtos.Reviews
+namespace WebDesignProject
 {
     public record CreateReviewDto([Required] int userId, [Required] string comment, [Required] int rating);
 }

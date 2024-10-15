@@ -1,5 +1,4 @@
-﻿
-namespace WebDesignProject.Data.Repositories
+﻿namespace WebDesignProject.Data.Repositories.Reviews
 {
     public interface IReviewRepository
     {

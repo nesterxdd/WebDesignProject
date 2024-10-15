@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
-namespace WebDesignProject.Data
+namespace WebDesignProject
 {
     public class MyContext : DbContext
     {
@@ -10,8 +10,6 @@ namespace WebDesignProject.Data
         public DbSet<Resource> Resources { get; set; }
 
         public DbSet<Category> Categories { get; set; }
-
-        public DbSet<ResourceCategory> ResourceCategories { get; set; }
 
         public DbSet<Review> Reviews { get; set; }
 

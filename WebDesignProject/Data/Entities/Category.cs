@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-namespace WebDesignProject.Data
+namespace WebDesignProject
 {
     public class Category
     {

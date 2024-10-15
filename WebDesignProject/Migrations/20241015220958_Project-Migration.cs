@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace WebDesignProject.Migrations
 {
     /// <inheritdoc />
-    public partial class Inil : Migration
+    public partial class ProjectMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -30,12 +30,10 @@ namespace WebDesignProject.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Title = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    Type = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: false),
-                    Description = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Metadata = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Status = table.Column<string>(type: "nvarchar(20)", maxLength: 20, nullable: false),
-                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    Title = table.Column<string>(type: "nvarchar(100)", maxLength: 100, nullable: false),
+                    Description = table.Column<string>(type: "nvarchar(255)", maxLength: 255, nullable: false),
+                    CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    UpdatedAt = table.Column<DateTime>(type: "datetime2", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -61,26 +59,24 @@ namespace WebDesignProject.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "ResourceCategories",
+                name: "CategoryResource",
                 columns: table => new
                 {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ResourceId = table.Column<int>(type: "int", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false)
+                    CategoriesId = table.Column<int>(type: "int", nullable: false),
+                    ResourcesId = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_ResourceCategories", x => x.Id);
+                    table.PrimaryKey("PK_CategoryResource", x => new { x.CategoriesId, x.ResourcesId });
                     table.ForeignKey(
-                        name: "FK_ResourceCategories_Categories_CategoryId",
-                        column: x => x.CategoryId,
+                        name: "FK_CategoryResource_Categories_CategoriesId",
+                        column: x => x.CategoriesId,
                         principalTable: "Categories",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_ResourceCategories_Resources_ResourceId",
-                        column: x => x.ResourceId,
+                        name: "FK_CategoryResource_Resources_ResourcesId",
+                        column: x => x.ResourcesId,
                         principalTable: "Resources",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -117,14 +113,9 @@ namespace WebDesignProject.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_ResourceCategories_CategoryId",
-                table: "ResourceCategories",
-                column: "CategoryId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_ResourceCategories_ResourceId",
-                table: "ResourceCategories",
-                column: "ResourceId");
+                name: "IX_CategoryResource_ResourcesId",
+                table: "CategoryResource",
+                column: "ResourcesId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Reviews_ResourceId",
@@ -141,7 +132,7 @@ namespace WebDesignProject.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "ResourceCategories");
+                name: "CategoryResource");
 
             migrationBuilder.DropTable(
                 name: "Reviews");
