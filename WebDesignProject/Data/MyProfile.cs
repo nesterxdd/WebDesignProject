@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using WebDesignProject.Data.Dtos.Reviews;
 
 namespace WebDesignProject.Data
 {
@@ -9,6 +10,9 @@ namespace WebDesignProject.Data
             CreateMap<Resource, ResourceDto>();
             CreateMap<CreateResourceDto, Resource>();
             CreateMap<UpdateResourceDto, Resource>();   
+            CreateMap<CreateReviewDto, Review>();
+            CreateMap<Review, ReviewDto>();
+            CreateMap<UpdateReviewDto, Review>();
         }
     }
 }

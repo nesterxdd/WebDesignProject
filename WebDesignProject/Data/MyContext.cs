@@ -4,6 +4,9 @@ namespace WebDesignProject.Data
 {
     public class MyContext : DbContext
     {
+
+        
+
         public DbSet<Resource> Resources { get; set; }
 
         public DbSet<Category> Categories { get; set; }
@@ -16,7 +19,7 @@ namespace WebDesignProject.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=localhost;Database=WebDesignProject;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=DESKTOP-HQEF13N\\SQLEXPRESS;Database=WebDesignProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;");
         }
     }
 }

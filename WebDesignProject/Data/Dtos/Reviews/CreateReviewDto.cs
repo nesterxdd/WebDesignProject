@@ -2,5 +2,5 @@
 
 namespace WebDesignProject.Data.Dtos.Reviews
 {
-    public record CreateReviewDto([Required] string userId, [Required] string comment, [Required] int rating, [Required] int resourceId);
+    public record CreateReviewDto([Required] int userId, [Required] string comment, [Required] int rating, [Required] int resourceId);
 }
