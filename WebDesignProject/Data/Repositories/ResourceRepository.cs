@@ -94,12 +94,12 @@ namespace WebDesignProject.Data
             return resource;
         }
 
-        public async Task Delete()
+        public async Task Delete(Resource resource)
         {
 
         }
 
-        public async Task<Resource> Put()
+        public async Task<Resource> Put(Resource resource)
         {
             return null;
         }

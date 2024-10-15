@@ -2,14 +2,6 @@
 
 namespace WebDesignProject
 {
-    public class ResourceDto
-    {
-        public int Id { get; set; }
-        public string Title { get; set; }
-        public string Description { get; set; }
-        public ICollection<Review> Reviews { get; set; }
-        public ICollection<ResourceCategory> ResourceCategories { get; set; }
+    public record ResourceDto(int Id, string Title, string Description, ICollection<Review> Reviews, ICollection<ResourceCategory> ResourceCategories);
 
-        public ResourceDto() { }
-    }
 }

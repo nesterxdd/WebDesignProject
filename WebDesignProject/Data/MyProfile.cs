@@ -6,7 +6,9 @@ namespace WebDesignProject.Data
     {
         public MyProfile()
         {
-            CreateMap<Resource, ResourceDto>(); 
+            CreateMap<Resource, ResourceDto>();
+            CreateMap<CreateResourceDto, Resource>();
+            CreateMap<UpdateResourceDto, Resource>();   
         }
     }
 }

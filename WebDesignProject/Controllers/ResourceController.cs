@@ -19,7 +19,7 @@ namespace WebDesignProject
     {
         private readonly IResourceRepository _iresourcerepository;
         private readonly IMapper _mapper;
-        public ResourceController(IResourceRepository iresourcerepository, IMapper  mapper)
+        public ResourceController(IResourceRepository iresourcerepository, IMapper mapper)
         {
             _iresourcerepository = iresourcerepository;
             _mapper = mapper;
@@ -32,9 +32,57 @@ namespace WebDesignProject
         }
 
         [HttpGet("{id}")]
-        public async Task<Resource> Get(int id)
+        public async Task<ActionResult<Resource>> Get(int id)
         {
-            return await _iresourcerepository.Get(id);
+            var resource = await _iresourcerepository.Get(id);
+            if (resource == null)
+            {
+                return NotFound($"topic with id:{id} does not exist");
+            }
+            //return _mapper.Map<ResourceDto>(resource);
+            return Ok(_mapper.Map<ResourceDto>(resource));
+        }
+
+        [HttpPost]
+        public async Task<ActionResult<Resource>> Post(CreateResourceDto resourcedto)
+        {
+            var resource = _mapper.Map<Resource>(resourcedto);
+            await _iresourcerepository.Create(resource);
+
+            //201
+            //Created Resource
+            return Created($"/api/topics/{resource.Id}", _mapper.Map<ResourceDto>(resource));
+        }
+
+        [HttpPut("{id}")]
+        public async Task<ActionResult<Resource>> Put(int id, UpdateResourceDto updateResourceDto)
+        {
+            var resource = await _iresourcerepository.Get(id);
+            if (resource == null)
+            {
+                return NotFound($"topic with id:{id} does not exist");
+            }
+
+            _mapper.Map(updateResourceDto, resource);
+
+            await _iresourcerepository.Put(resource);
+
+            //return _mapper.Map<ResourceDto>(resource);
+            return Ok(_mapper.Map<ResourceDto>(resource));
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult<Resource>> Delete(int id)
+        {
+            var resource = await _iresourcerepository.Get(id);
+            if (resource == null)
+            {
+                return NotFound($"topic with id:{id} does not exist");
+            }
+            await _iresourcerepository.Delete(resource);
+
+            //204
+            return NoContent();
         }
     }
 }
