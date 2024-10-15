@@ -163,13 +163,13 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "reviewDto",
-        "Type": "WebDesignProject.Data.Dtos.Reviews.CreateReviewDto",
+        "Name": "resourceId",
+        "Type": "System.Int32",
         "IsRequired": true
       },
       {
-        "Name": "resourceId",
-        "Type": "",
+        "Name": "reviewDto",
+        "Type": "WebDesignProject.Data.Dtos.Reviews.CreateReviewDto",
         "IsRequired": true
       }
     ],

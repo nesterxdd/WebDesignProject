@@ -3,10 +3,10 @@ namespace WebDesignProject.Data
 {
     public interface IResourceRepository
     {
-        Task<Resource> Create(Resource resource);
-        Task Delete(Resource resource);
-        Task<Resource> Get(int id);
-        Task<IEnumerable<Resource>> GetAll();
-        Task<Resource> Put(Resource resource);
+        Task DeleteAsync(Resource resource);
+        Task<Resource> GetAsync(int id);
+        Task<IEnumerable<Resource>> GetAsync();
+        Task<Resource> InsertAsync(Resource resource);
+        Task<Resource> UpdateAsync(Resource resource);
     }
 }

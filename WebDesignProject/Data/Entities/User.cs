@@ -31,7 +31,6 @@ namespace WebDesignProject.Data
         [StringLength(50, ErrorMessage = "Role cannot exceed 50 characters.")]
         public string Role { get; set; }
 
-        // Navigation properties
         public ICollection<Review> Reviews { get; set; }
 
         [Required]

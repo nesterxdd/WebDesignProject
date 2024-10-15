@@ -1,19 +1,22 @@
-﻿using System.ComponentModel.DataAnnotations;
-using WebDesignProject.Data;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
-public class Category
+namespace WebDesignProject.Data
 {
-    public Category()
+    public class Category
     {
-        ResourceCategories = new HashSet<ResourceCategory>();
+        public Category()
+        {
+            Resources = new HashSet<Resource>();
+        }
+
+        [Key]
+        public int Id { get; set; }
+
+        [Required]
+        [StringLength(100)]
+        public string Name { get; set; }
+
+        public ICollection<Resource> Resources { get; set; }
     }
-
-    [Key]
-    public int Id { get; set; }
-
-    [Required]
-    [StringLength(100)] 
-    public string Name { get; set; }
-
-    public ICollection<ResourceCategory> ResourceCategories { get; set; }
 }

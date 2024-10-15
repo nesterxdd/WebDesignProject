@@ -9,24 +9,26 @@ namespace WebDesignProject.Data
         public Resource()
         {
             Reviews = new HashSet<Review>();
-            ResourceCategories = new HashSet<ResourceCategory>();
+            Categories = new HashSet<Category>();
         }
 
         [Key]
         public int Id { get; set; }
 
+        [Required]
+        [StringLength(100, ErrorMessage = "Title cannot exceed 100 characters.")]
         public string Title { get; set; }
-        public string Type { get; set; }
 
+        [Required]
+        [StringLength(255, ErrorMessage = "Description cannot exceed 255 characters.")]
         public string Description { get; set; }
 
-        public string Metadata { get; set; }
-        public string Status { get; set; }
+        public ICollection<Review> Reviews { get; set; }
+        public ICollection<Category> Categories { get; set; }
 
+        [Required]
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-
-        public ICollection<Review> Reviews { get; set; }
-        public ICollection<ResourceCategory> ResourceCategories { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }

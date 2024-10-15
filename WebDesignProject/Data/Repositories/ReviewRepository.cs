@@ -16,7 +16,7 @@ namespace WebDesignProject.Data.Repositories
             return await _mycontext.Reviews.FirstOrDefaultAsync(r => r.ResourceId == resourceId && r.Id == reviewId);
         }
 
-        public async Task<List<Review>> GetAsync(int resourceId)
+        public async Task<IEnumerable<Review>> GetAsync(int resourceId)
         {
             return await _mycontext.Reviews.Where(r => r.ResourceId == resourceId).ToListAsync();
         }
@@ -24,7 +24,7 @@ namespace WebDesignProject.Data.Repositories
         public async Task InsertAsync(Review review)
         {
             _mycontext.Reviews.Add(review);
-            await _mycontext.SaveChangesAsync();
+            await _mycontext.SaveChangesAsync();   
         }
 
         public async Task UpdateAsync(Review review)

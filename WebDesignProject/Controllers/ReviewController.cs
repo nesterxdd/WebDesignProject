@@ -32,7 +32,7 @@ namespace WebDesignProject.Controllers
         public async Task<ActionResult<ReviewDto>> Get(int resourceId, int reviewId)
         {
             var review = await _reviewRepository.GetAsync(resourceId, reviewId);
-            if (review == null)
+            if(review == null)
             {
                 return NotFound();
             }
@@ -40,25 +40,25 @@ namespace WebDesignProject.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<ReviewDto>> PostAsync(CreateReviewDto reviewDto)
+        public async Task<ActionResult<ReviewDto>> PostAsync(int resourceId, CreateReviewDto reviewDto)
         {
-            var resource = await _resourceRepository.Get(reviewDto.resourceId);
+            var resource = await _resourceRepository.GetAsync(resourceId);
             if (resource == null)
             {
                 return NotFound();
             }
             var review = _mapper.Map<Review>(reviewDto);
-            review.ResourceId = reviewDto.resourceId;
+            review.ResourceId = resourceId;
 
             await _reviewRepository.InsertAsync(review);
 
-            return Created($"/api/resource/{reviewDto.resourceId}/reviews/{review.Id}", _mapper.Map<ReviewDto>(review));
+            return Created($"/api/resource/{resourceId}/reviews/{review.Id}", _mapper.Map<ReviewDto>(review));
         }
 
         [HttpPut("{reviewId}")]
         public async Task<ActionResult<ReviewDto>> UpdateAsync(int resourceId, int reviewId, CreateReviewDto reviewDto)
         {
-            var resource = await _resourceRepository.Get(resourceId);
+            var resource = await _resourceRepository.GetAsync(resourceId);
             if (resource == null)
             {
                 return NotFound();
@@ -69,7 +69,9 @@ namespace WebDesignProject.Controllers
                 return NotFound();
             }
 
-            _mapper.Map(reviewDto, oldReview);
+            //_mapper.Map(reviewDto, oldReview);
+            oldReview.Comment = reviewDto.comment;
+            oldReview.Rating = reviewDto.rating;
 
             await _reviewRepository.UpdateAsync(oldReview);
 
@@ -80,7 +82,7 @@ namespace WebDesignProject.Controllers
         public async Task<IActionResult> DeleteAsync(int resourceId, int reviewId)
         {
             var review = await _reviewRepository.GetAsync(resourceId, reviewId);
-            if (review == null)
+            if(review == null)
             {
                 return NotFound();
             }

@@ -1,7 +1,8 @@
 ﻿using WebDesignProject.Data;
+using WebDesignProject.Data.Dtos.Reviews;
 
 namespace WebDesignProject
 {
-    public record ResourceDto(int Id, string Title, string Description, ICollection<Review> Reviews, ICollection<ResourceCategory> ResourceCategories);
+    public record ResourceDto(int Id, string Title, string Description, ICollection<ReviewDto> Reviews, ICollection<ResourceCategory> ResourceCategories);
 
 }
