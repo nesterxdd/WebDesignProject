@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebDesignProject.Data;
 
@@ -13,8 +14,9 @@ namespace WebDesignProject
         /api/Resource/{id} PUT 200
         /api/Resource/{id} DELETE 200/204
      */
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
+    [Authorize] 
     public class ResourceController : ControllerBase
     {
         private readonly IResourceRepository _iresourcerepository;
@@ -43,7 +45,9 @@ namespace WebDesignProject
             return Ok(_mapper.Map<ResourceDto>(resource));
         }
 
+
         [HttpPost]
+        [Authorize(Roles = "admin, teacher")] 
         public async Task<ActionResult<Resource>> Post(CreateResourceDto resourceDto)
         {
             var resource = _mapper.Map<Resource>(resourceDto);
@@ -55,6 +59,7 @@ namespace WebDesignProject
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin, teacher")]
         public async Task<ActionResult<Resource>> Put(int id, UpdateResourceDto updateResourceDto)
         {
             var resource = await _iresourcerepository.GetAsync(id);
@@ -71,6 +76,7 @@ namespace WebDesignProject
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<Resource>> Delete(int id)
         {
             var resource = await _iresourcerepository.GetAsync(id);

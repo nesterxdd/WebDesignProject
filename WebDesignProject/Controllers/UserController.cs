@@ -1,12 +1,16 @@
-﻿// Controllers/UserController.cs
-using AutoMapper;
+﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebDesignProject.Data.Repositories;
+using WebDesignProject.Data;
+using AutoMapper;
+using WebDesignProject.Data.Dtos;
+using System.Security.Claims;
 
 namespace WebDesignProject.Controllers
 {
     [ApiController]
     [Route("api/users")]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
@@ -18,21 +22,40 @@ namespace WebDesignProject.Controllers
             _mapper = mapper;
         }
 
+        // Admins can get all users
         [HttpGet]
+        [Authorize(Roles = "admin")]
         public async Task<IEnumerable<UserDto>> GetAll()
         {
             return (await _userRepository.GetAsync()).Select(u => _mapper.Map<UserDto>(u));
         }
 
+        // Allow a user to get their own data (if they are accessing their own user ID)
+        // Teachers and Admins can get a specific user by ID (including their own)
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> Get(int id)
         {
-            var user = await _userRepository.GetAsync(id);
-            if (user == null) return NotFound();
-            return Ok(_mapper.Map<UserDto>(user));
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Get the user ID from the token
+
+            // Allow users to access their own data
+            if (id == userIdFromToken || User.IsInRole("admin") || User.IsInRole("teacher"))
+            {
+                var user = await _userRepository.GetAsync(id);
+
+                if (user == null)
+                {
+                    return NotFound();
+                }
+
+                return Ok(_mapper.Map<UserDto>(user));
+            }
+
+            return Unauthorized(new { message = "You can only access your own data" });
         }
 
+        // Only Admins can create a new user
         [HttpPost]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<UserDto>> Post(CreateUserDto userDto)
         {
             var user = _mapper.Map<User>(userDto);
@@ -41,23 +64,46 @@ namespace WebDesignProject.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize]
         public async Task<ActionResult<UserDto>> Put(int id, UpdateUserDto userDto)
         {
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+
             var user = await _userRepository.GetAsync(id);
             if (user == null) return NotFound();
 
+            // Check if the role in the DTO is null and retain the current user's role if it is
+            if (userDto.Role == null)
+            {
+                userDto.Role = user.Role; // Retain the original role
+            }
+
+            // Map the updated data, including the role
             _mapper.Map(userDto, user);
             await _userRepository.UpdateAsync(user);
             return Ok(_mapper.Map<UserDto>(user));
         }
 
+
+
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin,student")]
         public async Task<IActionResult> Delete(int id)
         {
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Get the user's ID from the token
+
+            // Check if the user is trying to delete their own data, or if they are an admin
+            if (id != userIdFromToken && !User.IsInRole("admin"))
+            {
+                return Unauthorized(new { message = "You can only delete your own account" });
+            }
+
             var user = await _userRepository.GetAsync(id);
             if (user == null) return NotFound();
+
             await _userRepository.DeleteAsync(user);
-            return NoContent();
+            return NoContent(); // Successfully deleted, no content to return
         }
+
     }
 }

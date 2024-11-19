@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebDesignProject.Data;
 using WebDesignProject.Data.Repositories.Reviews;
@@ -7,6 +8,8 @@ namespace WebDesignProject.Controllers
 {
     [ApiController]
     [Route("api/resource/{resourceId}/reviews")]
+    [Route("api/[controller]")]
+    [Authorize] 
     public class ReviewController : ControllerBase
     {
         private readonly IReviewRepository _reviewRepository;
@@ -78,6 +81,7 @@ namespace WebDesignProject.Controllers
         }
 
         [HttpDelete("{reviewId}")]
+        [Authorize(Roles = "admin, teacher")] 
         public async Task<IActionResult> DeleteAsync(int resourceId, int reviewId)
         {
             var review = await _reviewRepository.GetAsync(resourceId, reviewId);

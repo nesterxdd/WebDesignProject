@@ -7,5 +7,6 @@
         Task<User> InsertAsync(User user);
         Task<User> UpdateAsync(User user);
         Task DeleteAsync(User user);
+        Task<User> GetByEmailAsync(string email);
     }
 }

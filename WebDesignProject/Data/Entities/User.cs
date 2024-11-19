@@ -27,7 +27,6 @@ namespace WebDesignProject
         [StringLength(255, MinimumLength = 6, ErrorMessage = "Password must be at least 6 characters long.")]
         public string PasswordHash { get; set; } 
 
-        [Required]
         [StringLength(50, ErrorMessage = "Role cannot exceed 50 characters.")]
         public string Role { get; set; }
 

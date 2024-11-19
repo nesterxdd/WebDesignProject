@@ -2,6 +2,13 @@
 
 namespace WebDesignProject
 {
-    public record UpdateUserDto([Required] string Name, [Required] string Email, [Required] string Role);
+    public class UpdateUserDto
+    {
+        public string Email { get; set; }
+        public string PasswordHash { get; set; }
+        public string? Role { get; set; }  
+                                          
+    }
+
 
 }

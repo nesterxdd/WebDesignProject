@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Authorization;
+
 
 namespace WebDesignProject
 {
     [ApiController]
     [Route("api/categories")]
+    [Authorize]
     public class CategoryController : ControllerBase
     {
         private readonly ICategoryRepository _categoryRepository;
@@ -31,6 +34,7 @@ namespace WebDesignProject
         }
 
         [HttpPost]
+        [Authorize(Roles = "admin, teacher")]
         public async Task<ActionResult<CategoryDto>> Post(CreateCategoryDto categoryDto)
         {
             var category = _mapper.Map<Category>(categoryDto);
@@ -39,6 +43,7 @@ namespace WebDesignProject
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<ActionResult<CategoryDto>> Put(int id, UpdateCategoryDto categoryDto)
         {
             var category = await _categoryRepository.GetAsync(id);
@@ -50,6 +55,7 @@ namespace WebDesignProject
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var category = await _categoryRepository.GetAsync(id);
