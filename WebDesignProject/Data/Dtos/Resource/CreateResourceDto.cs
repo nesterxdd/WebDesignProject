@@ -5,6 +5,6 @@ using WebDesignProject.Data;
 namespace WebDesignProject
 {
     
-    public record CreateResourceDto([Required] string Title, [Required] string Description, [Required] string Metadata, [Required] string Status, [Required] string Type, ICollection<int> categoriesIDs);
+    public record CreateResourceDto([Required] string Title, [Required] string Description, [Required] string Metadata, ICollection<int> categoriesIDs);
    
 }

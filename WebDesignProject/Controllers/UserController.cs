@@ -67,27 +67,38 @@ namespace WebDesignProject.Controllers
         [Authorize]
         public async Task<ActionResult<UserDto>> Put(int id, UpdateUserDto userDto)
         {
-            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Extract user ID from token
 
-            var user = await _userRepository.GetAsync(id);
-            if (user == null) return NotFound();
-
-            // Check if the role in the DTO is null and retain the current user's role if it is
-            if (userDto.Role == null)
+            // Ensure the user is updating their own data or is an admin
+            if (id != userIdFromToken && !User.IsInRole("admin"))
             {
-                userDto.Role = user.Role; // Retain the original role
+                return Forbid("You can only update your own account.");
             }
 
-            // Map the updated data, including the role
+            var user = await _userRepository.GetAsync(id);
+            if (user == null)
+            {
+                return NotFound(); // User not found
+            }
+
+            // Retain current role if the role is not provided in the DTO
+            if (userDto.Role == null)
+            {
+                userDto.Role = user.Role;
+            }
+
+            // Update the user data
             _mapper.Map(userDto, user);
             await _userRepository.UpdateAsync(user);
-            return Ok(_mapper.Map<UserDto>(user));
+
+            return Ok(_mapper.Map<UserDto>(user)); // Return the updated user
         }
 
 
 
+
         [HttpDelete("{id}")]
-        [Authorize(Roles = "admin,student")]
+        [Authorize(Roles = "admin")]
         public async Task<IActionResult> Delete(int id)
         {
             var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Get the user's ID from the token
@@ -102,8 +113,9 @@ namespace WebDesignProject.Controllers
             if (user == null) return NotFound();
 
             await _userRepository.DeleteAsync(user);
-            return NoContent(); // Successfully deleted, no content to return
+            return NoContent(); 
         }
+
 
     }
 }

@@ -19,7 +19,7 @@ namespace WebDesignProject
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=DESKTOP-HQEF13N\\SQLEXPRESS;Database=WebDesignProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;");
+            optionsBuilder.UseSqlServer("Server=NESTERXDD\\SQLEXPRESS;Database=WebDesignProjectLab1;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;");
         }
     }
 }

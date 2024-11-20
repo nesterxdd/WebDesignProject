@@ -3799,19 +3799,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\P-Mac\\.nuget\\packages\\": {}
+    "C:\\Users\\neste\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
+      "projectUniqueName": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
       "projectName": "WebDesignProject",
-      "projectPath": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
-      "packagesPath": "C:\\Users\\P-Mac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\obj\\",
+      "projectPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
+      "packagesPath": "C:\\Users\\neste\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\P-Mac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\neste\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3819,7 +3824,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3893,7 +3897,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
