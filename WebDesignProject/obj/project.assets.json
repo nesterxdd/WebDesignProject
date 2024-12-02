@@ -3805,11 +3805,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
+      "projectUniqueName": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
       "projectName": "WebDesignProject",
-      "projectPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
+      "projectPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
       "packagesPath": "C:\\Users\\neste\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\obj\\",
+      "outputPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

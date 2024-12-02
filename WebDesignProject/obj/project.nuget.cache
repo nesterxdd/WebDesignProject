@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KVJ0sGsv9Ym3r18r+CCDX2YGgAbBb5/IAi+LqgpMhSqxTsvvf1/I10ZnjAsiBtXwOZXvXqK4Bhr6XfgnfNwymA==",
+  "dgSpecHash": "Ff8UrunU+pQPm8kjRsNZwRBl+yExdaZ/4qocHXgVxUsL38AZq93cDXElstus6pgA0BTyb/t1pOOoABBDks3VMA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
+  "projectFilePath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\WebDesignProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\neste\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\neste\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

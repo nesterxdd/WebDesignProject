@@ -1,165 +1,205 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\",
+  "WorkspaceRootPath": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\resourcespage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\resourcespage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\createresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\createresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\createresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\resourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\resourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\resourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\category\\createcategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\category\\updatecategorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\category\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\category\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\category\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\user\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\users\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\users\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\reviews\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\reviews\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\reviews\\reviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\reviews\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\reviews\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\reviews\\ireviewrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\resources\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\resources\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\resources\\resourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\resources\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\resources\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\resources\\iresourcerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\category\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\repositories\\category\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\updatereviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\updatereviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\reviews\\updatereviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\reviews\\reviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignproject\\webdesignproject\\webdesignproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\neste\\documents\\github\\webdesignprojectimplementation\\webdesignproject\\webdesignproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
@@ -170,132 +210,254 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Program.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Program.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Program.cs",
-              "RelativeToolTip": "WebDesignProject\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:11:20.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "MyContext.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyContext.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\MyContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:48:22.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "MyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyProfile.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\MyProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:05:53.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CreateResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:09:21.64Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Category.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:18:17.618Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Resource.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Resource.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:16:14.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20241015220958_Project-Migration.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "RelativeToolTip": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "ViewState": "AQIAAJAAAAAAAAAAAAAowAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:09:58.165Z",
+              "Title": "Footer.css",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAYwB0AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:56:48.146Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MyContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeToolTip": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "ViewState": "AQIAAK8AAAAAAAAAAAAgwEsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:24:33.581Z",
+              "Title": "Header.css",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:56:24.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Footer.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:54:29.994Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Header.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAgwBMAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:54:00.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Modal.css",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:37:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Modal.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:34:14.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Homepage.css",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "ViewState": "AQIAABcAAAAAAAAAAAAYwCMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:33:36.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ResourcesPage.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:26:09.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Homepage.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:25:21.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\App.js",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\frontend\\src\\App.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\App.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:24:40.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Program.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Program.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Program.cs",
+              "RelativeToolTip": "WebDesignProject\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:11:20.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyContext.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:48:22.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "MyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyProfile.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\MyProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:05:53.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CreateResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:09:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:18:17.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Resource.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Resource.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:16:14.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20241015220958_Project-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "RelativeToolTip": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:09:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MyContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeToolTip": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAgwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:24:33.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
               "RelativeToolTip": "WebDesignProject\\Controllers\\ReviewController.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAAAiwDcAAAA3AAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwCcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-15T14:38:29.114Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 24,
               "Title": "CreateReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -303,37 +465,35 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 12,
               "Title": "ResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:42:38.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:42:38.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 19,
               "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "WebDesignProject\\Controllers\\CategoryController.cs",
               "ViewState": "AQIAACwAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:26:19.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:26:19.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 25,
               "Title": "UpdateResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -341,50 +501,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 20,
               "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Startup.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Startup.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Startup.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Startup.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Startup.cs",
               "RelativeToolTip": "WebDesignProject\\Startup.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwEEAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:08:15.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:08:15.899Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
               "RelativeToolTip": "WebDesignProject\\Controllers\\UserController.cs",
               "ViewState": "AQIAAFYAAAAAAAAAAAAowG8AAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:24:24.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:24:24.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "ResourceController.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ResourceController.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
               "RelativeToolTip": "WebDesignProject\\Controllers\\ResourceController.cs",
               "ViewState": "AQIAAD4AAAAAAAAAAAAIwE4AAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:09:07.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:09:07.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "CategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,11 +549,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "LoginDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -404,11 +561,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "UpdateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -416,11 +573,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "CreateCategoryDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -428,11 +585,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 31,
               "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\User.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\User.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\User.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\User.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -440,11 +597,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 33,
               "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -452,11 +609,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 30,
               "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -464,11 +621,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 34,
               "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\AuthService.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\AuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -476,11 +633,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Controllers\\AuthController.cs",
               "RelativeToolTip": "WebDesignProject\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -488,11 +645,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 32,
               "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -500,11 +657,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 38,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -512,11 +669,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 36,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\appsettings.json",
               "RelativeDocumentMoniker": "WebDesignProject\\appsettings.json",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\appsettings.json",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\appsettings.json",
               "RelativeToolTip": "WebDesignProject\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -524,11 +681,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 37,
               "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -536,11 +693,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 39,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebDesignProject\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\appsettings.Development.json",
               "RelativeToolTip": "WebDesignProject\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -548,11 +705,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 40,
               "Title": "ReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -560,11 +717,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 41,
               "Title": "IReviewRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -572,11 +729,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 42,
               "Title": "ResourceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -584,11 +741,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 43,
               "Title": "IResourceRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -596,11 +753,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 44,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -608,11 +765,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 45,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -620,11 +777,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 46,
               "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Review.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Review.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Review.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Review.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Review.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -632,11 +789,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 47,
               "Title": "UpdateReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -644,11 +801,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 48,
               "Title": "ReviewDto.cs",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -656,11 +813,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 49,
               "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Properties\\launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebDesignProject\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProject\\WebDesignProject\\WebDesignProject\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\neste\\Documents\\GitHub\\WebDesignProjectImplementation\\WebDesignProject\\WebDesignProject\\Properties\\launchSettings.json",
               "RelativeToolTip": "WebDesignProject\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
