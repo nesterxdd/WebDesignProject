@@ -1,42 +1,33 @@
-﻿import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import LoginModal from '../Modals/LoginModal';
-import RegisterModal from '../Modals/RegisterModal';
+﻿import React from 'react';
 import './Header.css';
 
-const Header = ({ isLoggedIn, onLogout }) => {
-    const [showLogin, setShowLogin] = useState(false);
-    const [showRegister, setShowRegister] = useState(false);
-
-    const handleLogin = (token) => {
-        // Save token (e.g., in localStorage)
-        localStorage.setItem('authToken', token);
-        window.location.reload(); // Reload the app or update state
-    };
-
+const Header = ({ isLoggedIn, onLoginClick, onLogout }) => {
     return (
         <header className="header">
-            <div className="logo">MyProject</div>
+            <h1 className="logo">MyProject</h1>
             <nav className="nav">
-                <Link to="/">Home</Link>
-                <Link to="/resources">Resources</Link>
-                {isLoggedIn ? (
-                    <button className="btn" onClick={onLogout}>
-                        Logout
-                    </button>
-                ) : (
-                    <>
-                        <button className="btn" onClick={() => setShowLogin(true)}>
-                            Login
-                        </button>
-                        <button className="btn" onClick={() => setShowRegister(true)}>
-                            Register
-                        </button>
-                    </>
-                )}
+                <ul>
+                    {!isLoggedIn ? (
+                        <>
+                            <li>
+                                <button onClick={onLoginClick}>Login</button>
+                            </li>
+                            <li>
+                                <button>Register</button>
+                            </li>
+                        </>
+                    ) : (
+                        <>
+                            <li>
+                                <button onClick={onLogout}>Logout</button>
+                            </li>
+                            <li>
+                                <button>Profile</button>
+                            </li>
+                        </>
+                    )}
+                </ul>
             </nav>
-            {showLogin && <LoginModal onClose={() => setShowLogin(false)} onLogin={handleLogin} />}
-            {showRegister && <RegisterModal onClose={() => setShowRegister(false)} />}
         </header>
     );
 };

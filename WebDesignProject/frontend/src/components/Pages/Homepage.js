@@ -1,18 +1,34 @@
 ﻿import React, { useState } from 'react';
 import Header from '../GeneralComponents/Header'; // Import Header
 import Footer from '../GeneralComponents/Footer'; // Import Footer
-import Modal from '../Modals/Modal'; // Import Modal
+import LoginModal from '../Modals/LoginModal'; // Import LoginModal (not just Modal)
 import './Homepage.css';
 
 const HomePage = () => {
     const [showModal, setShowModal] = useState(false);
-    const isLoggedIn = false; // Replace with actual login state from context or props
+    const [userToken, setUserToken] = useState(null); // Store the user token here after successful login
+    const isLoggedIn = !!userToken; // Check if a token is present to determine if user is logged in
 
-    const toggleModal = () => setShowModal(!showModal);
+    const toggleModal = () => setShowModal(!showModal); // Toggle modal visibility
+
+    // Handle login success
+    const handleLoginSuccess = (token) => {
+        setUserToken(token); // Store token when login is successful
+        setShowModal(false);  // Close the modal after login
+    };
+
+    // Handle logout (clear token and update state)
+    const handleLogout = () => {
+        setUserToken(null);  // Clear the token
+    };
 
     return (
         <div className="homepage">
-            <Header isLoggedIn={isLoggedIn} onLogout={() => alert('Logged out')} />
+            <Header
+                isLoggedIn={isLoggedIn}
+                onLoginClick={toggleModal} // Pass toggleModal to open login modal
+                onLogout={handleLogout} // Pass handleLogout to logout
+            />
             <main className="content">
                 <section className="intro">
                     <h1 className="highlight">Welcome to MyProject</h1>
@@ -28,15 +44,12 @@ const HomePage = () => {
                     </button>
                 </section>
             </main>
-            <Footer onLearnMore={toggleModal} />
+            <Footer/>
             {showModal && (
-                <Modal onClose={toggleModal}>
-                    <h2>About This Project</h2>
-                    <p>
-                        MyProject is a platform built for educational purposes to demonstrate modern web
-                        development practices using React and more.
-                    </p>
-                </Modal>
+                <LoginModal
+                    onClose={toggleModal} // Pass the function to close the modal
+                    onLoginSuccess={handleLoginSuccess} // Pass handleLoginSuccess to be called after successful login
+                />
             )}
         </div>
     );

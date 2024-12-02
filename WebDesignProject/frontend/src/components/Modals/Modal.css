@@ -1,4 +1,5 @@
-﻿.modal {
+﻿/* Modal Styles */
+.modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -32,7 +33,7 @@
         margin: 10px 0;
     }
 
-    .modal-content input {
+    .modal-content .input-field {
         width: 95%;
         padding: 10px;
         margin: 10px 0;
@@ -40,9 +41,9 @@
         border-radius: 5px;
     }
 
-    .modal-content .btn {
+    .modal-content .btn.login-btn {
         padding: 10px;
-        background-color: #61dafb;
+        background-color: #4CAF50; /* Darker green instead of light blue */
         color: white;
         border: none;
         border-radius: 5px;
@@ -51,11 +52,15 @@
         width: 100%;
     }
 
-        .modal-content .btn.secondary {
-            background-color: #ccc;
-            margin-top: 10px;
+        .modal-content .btn.login-btn:hover {
+            background-color: #45a049;
         }
 
-        .modal-content .btn:hover {
-            background-color: #21a1f1;
-        }
+    .modal-content .btn.secondary {
+        background-color: #ccc;
+        margin-top: 10px;
+    }
+
+    .modal-content .btn:hover {
+        background-color: #21a1f1;
+    }

@@ -8,9 +8,7 @@ const Footer = ({ onLearnMoreClick }) => {
             <p>
                 <a href="/contact">Contact Us</a> | <a href="/terms">Terms</a>
             </p>
-            <button className="btn" onClick={onLearnMoreClick}>
-                Learn More
-            </button>
+           
         </footer>
     );
 };

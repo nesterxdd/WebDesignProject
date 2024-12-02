@@ -12,9 +12,20 @@ public class Startup
 {
     public void ConfigureServices(IServiceCollection services)
     {
+
+        services.AddCors(options =>
+        {
+            options.AddPolicy("AllowAll", builder =>
+            {
+                builder.AllowAnyOrigin() // Allows all origins (adjust for security in production)
+                       .AllowAnyMethod()
+                       .AllowAnyHeader();
+            });
+        });
+
         // Database context
         services.AddDbContext<MyContext>(options =>
-            options.UseSqlServer("Server=DESKTOP-HQEF13N\\SQLEXPRESS;Database=WebDesignProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"));
+            options.UseSqlServer("Server=NESTERXDD\\SQLEXPRESS;Database=WebDesignProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"));
 
         // Registering AuthService as a scoped service
         services.AddScoped<AuthService>(); // Add this line
@@ -62,10 +73,11 @@ public class Startup
             app.UseDeveloperExceptionPage();
         }
 
-        // Enable Authentication and Authorization middleware
-        app.UseRouting();
+        // Enable CORS
+        app.UseCors("AllowAll");
 
-        // Authentication middleware
+        // Enable routing and authentication
+        app.UseRouting();
         app.UseAuthentication();
         app.UseAuthorization();
 
@@ -75,4 +87,5 @@ public class Startup
             endpoints.MapControllers();
         });
     }
+
 }

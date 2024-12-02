@@ -19,10 +19,22 @@
 }
 
 .nav {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+    display: flex; /* Ensures flexbox layout */
+    justify-content: flex-start; /* Align the items to the left */
+    align-items: center; /* Center items vertically */
+    gap: 15px; /* Space between items */
 }
+
+    .nav ul {
+        display: flex; /* Ensure list items are laid out in a row */
+        padding: 0; /* Remove default list padding */
+        margin: 0; /* Remove default list margin */
+        list-style: none; /* Remove default list bullets */
+    }
+
+    .nav li {
+        display: inline-flex; /* Ensures each list item is an inline block in a row */
+    }
 
     .nav a,
     .nav button {
@@ -30,6 +42,7 @@
         text-decoration: none;
         background-color: #61dafb;
         border: none;
+        margin-right: 10px;
         padding: 8px 15px;
         border-radius: 5px;
         font-size: 1rem;

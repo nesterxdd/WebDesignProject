@@ -1,67 +1,54 @@
 ﻿import React, { useState } from 'react';
-import { fetchProtectedData } from '../../utils/api'; // Import the utility function
-import './Modal.css'; // Ensure styling
+import './Modal.css'; // Import the modal CSS
+import { loginUser } from '../../utils/authService'; // Import the auth service
 
 const LoginModal = ({ onClose, onLoginSuccess }) => {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
-    const [protectedData, setProtectedData] = useState(null); // State to store fetched data
 
     const handleLogin = async () => {
         try {
-            const response = await fetch('http://localhost:5054/api/auth', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                },
-                body: JSON.stringify({ email, password }),
-            });
-
-            if (!response.ok) {
-                throw new Error('Login failed. Please check your credentials.');
-            }
-
-            const data = await response.json();
-            const token = data.Token;
-
-            // Save token to localStorage (or cookies, if preferred)
-            localStorage.setItem('jwtToken', token);
-
-            // Fetch protected data after login
-            const fetchedData = await fetchProtectedData();
-            setProtectedData(fetchedData); // Store fetched data in state
+            // Call the loginUser utility function to authenticate
+            const token = await loginUser(email, password);
 
             // Notify parent of successful login
-            onLoginSuccess();
+            onLoginSuccess(token);
 
-            // Close modal
+            // Close the modal
             onClose();
         } catch (err) {
             setError(err.message);
         }
     };
 
+    const handleClickOutside = (e) => {
+        // Close the modal if the click is outside the modal content
+        if (e.target.classList.contains("modal")) {
+            onClose();
+        }
+    };
+
     return (
-        <div className="modal">
-            <div className="modal-content">
+        <div className="modal" onClick={handleClickOutside}> {/* Close on outside click */}
+            <div className="modal-content"> {/* modal-content class */}
                 <h2>Login</h2>
-                {error && <p className="error">{error}</p>}
-                {protectedData && <p className="success">Welcome! Data fetched successfully.</p>}
+                {error && <p className="error">{error}</p>} {/* error class */}
                 <input
                     type="email"
                     placeholder="Email"
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
+                    className="input-field"
                 />
                 <input
                     type="password"
                     placeholder="Password"
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
+                    className="input-field"
                 />
-                <button onClick={handleLogin}>Login</button>
-                <button onClick={onClose} className="close-btn">Close</button>
+                <button onClick={handleLogin} className="btn login-btn">Login</button> {/* New button class */}
             </div>
         </div>
     );
