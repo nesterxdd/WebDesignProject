@@ -3,6 +3,90 @@
   "WorkspaceRootPath": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\loginmodal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\loginmodal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\modal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\registermodal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\registermodal.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\modals\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\modals\\modal.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\utils\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\utils\\api.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\header.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\footer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\generalcomponents\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\generalcomponents\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\homepage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\homepage.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\index.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\index.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\public\\logo192.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\public\\logo192.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\public\\logo512.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\public\\logo512.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\components\\pages\\resourcespage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\components\\pages\\resourcespage.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\frontend\\src\\app.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\createresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\createresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,32 +95,48 @@
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\resourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\migrations\\mycontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\resource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\migrations\\20241015220958_project-migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\resourcecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\reviews\\createreviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\resource\\updateresourcedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\category\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +155,6 @@
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\category\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\user\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -75,36 +171,8 @@
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\myprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\data\\mycontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|solutionrelative:webdesignproject\\controllers\\reviewcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F6BB36FF-6DEB-4A9C-88B6-8A97784CFEA3}|WebDesignProject\\WebDesignProject.csproj|c:\\users\\p-mac\\source\\repos\\webdesignproject\\webdesignproject\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -170,89 +238,363 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Resource.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Resource.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Resource.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:16:14.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:42:38.925Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "UpdateResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:24:07.99Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MyContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "RelativeToolTip": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T15:24:33.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "20241015220958_Project-Migration.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "RelativeToolTip": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDMAAABkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:09:58.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResourceController.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ResourceController.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs*",
-              "RelativeToolTip": "WebDesignProject\\Controllers\\ResourceController.cs*",
-              "ViewState": "AgIAABkAAAAAAAAAAAAgwDAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:09:07.714Z",
+              "Title": "api.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\utils\\api.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\utils\\api.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\utils\\api.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\utils\\api.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T14:13:22.251Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RegisterModal.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\RegisterModal.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\RegisterModal.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\RegisterModal.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\RegisterModal.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T13:53:57.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginModal.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\LoginModal.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\LoginModal.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\LoginModal.js*",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\LoginModal.js*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T13:53:30.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Footer.css",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:56:48.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Footer.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Footer.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:54:29.994Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Header.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.js",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:54:00.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Modal.css",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:37:53.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Homepage.css",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.css",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:33:36.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Homepage.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\Homepage.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:25:21.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Header.css",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\GeneralComponents\\Header.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T09:56:24.3Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modal.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Modals\\Modal.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:34:14.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Program.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Program.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Program.cs",
+              "RelativeToolTip": "WebDesignProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:11:20.566Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Startup.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Startup.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Startup.cs",
+              "RelativeToolTip": "WebDesignProject\\Startup.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:08:15.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "index.css",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\index.css",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\index.css",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\index.css",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\index.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-02T13:50:39.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "index.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\index.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\index.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\index.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\index.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T13:50:37.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\AuthService.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\AuthService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:39:56.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "logo192.png",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\public\\logo192.png",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\public\\logo192.png",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\public\\logo192.png",
+              "RelativeToolTip": "WebDesignProject\\frontend\\public\\logo192.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T13:39:22.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "logo512.png",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\public\\logo512.png",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\public\\logo512.png",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\public\\logo512.png",
+              "RelativeToolTip": "WebDesignProject\\frontend\\public\\logo512.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-12-02T13:39:20.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResourcesPage.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\components\\Pages\\ResourcesPage.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:26:09.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "App.js",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\App.js",
+              "RelativeDocumentMoniker": "WebDesignProject\\frontend\\src\\App.js",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\frontend\\src\\App.js",
+              "RelativeToolTip": "WebDesignProject\\frontend\\src\\App.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-02T09:24:40.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MyContext.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyContext.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\MyContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:48:22.726Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "MyProfile.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyProfile.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\MyProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T13:05:53.075Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "CreateResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:09:21.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:18:17.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Resource.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Resource.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Resource.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Resource.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwCIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:16:14.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20241015220958_Project-Migration.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "RelativeToolTip": "WebDesignProject\\Migrations\\20241015220958_Project-Migration.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:09:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "MyContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "RelativeToolTip": "WebDesignProject\\Migrations\\MyContextModelSnapshot.cs",
+              "ViewState": "AQIAAK8AAAAAAAAAAAAgwEsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T15:24:33.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ReviewController.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ReviewController.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
+              "RelativeToolTip": "WebDesignProject\\Controllers\\ReviewController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwCcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:38:29.114Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "CreateReviewDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
@@ -260,38 +602,71 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\CreateReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:42:50.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:42:50.08Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CreateResourceDto.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\CreateResourceDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "DocumentIndex": 22,
+              "Title": "ResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\ResourceDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:09:21.64Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:42:38.925Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Category.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Category.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "WebDesignProject\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:18:17.618Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:26:19.979Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 33,
+              "Title": "UpdateResourceDto.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Resource\\UpdateResourceDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T14:24:07.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
+              "RelativeToolTip": "WebDesignProject\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAFYAAAAAAAAAAAAowG8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T22:24:24.177Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResourceController.cs",
+              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
+              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ResourceController.cs",
+              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ResourceController.cs",
+              "RelativeToolTip": "WebDesignProject\\Controllers\\ResourceController.cs",
+              "ViewState": "AQIAAD4AAAAAAAAAAAAIwE4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-14T12:09:07.714Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "CategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
@@ -299,12 +674,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\CategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:24:57.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:24:57.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
@@ -312,12 +686,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:39:38.71Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:39:38.71Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "UpdateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
@@ -325,12 +698,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\UpdateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:25:11.845Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:25:11.845Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 35,
               "Title": "CreateCategoryDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
@@ -338,12 +710,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Category\\CreateCategoryDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:25:26.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:25:26.965Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 39,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\User.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\User.cs",
@@ -351,25 +722,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Entities\\User.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAABtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:18:28.414Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:18:28.414Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\UserController.cs",
-              "RelativeToolTip": "WebDesignProject\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAwwE4AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:24:24.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 41,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
@@ -377,12 +734,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\UserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:22:31.098Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:22:31.098Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 38,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
@@ -390,64 +746,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\UpdateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:23:11.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:23:11.89Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CategoryController.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\CategoryController.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\CategoryController.cs",
-              "RelativeToolTip": "WebDesignProject\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:26:19.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\AuthService.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\AuthService.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\AuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:39:56.89Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "MyContext.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyContext.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyContext.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\MyContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:48:22.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "MyProfile.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Data\\MyProfile.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\MyProfile.cs",
-              "RelativeToolTip": "WebDesignProject\\Data\\MyProfile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:05:53.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 42,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\AuthController.cs",
@@ -455,12 +758,11 @@
               "RelativeToolTip": "WebDesignProject\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T13:30:51.939Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:30:51.939Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 40,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
@@ -468,38 +770,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\User\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:22:48.009Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:22:48.009Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Startup.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Startup.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Startup.cs",
-              "RelativeToolTip": "WebDesignProject\\Startup.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:08:15.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "ReviewController.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Controllers\\ReviewController.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Controllers\\ReviewController.cs",
-              "RelativeToolTip": "WebDesignProject\\Controllers\\ReviewController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:38:29.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 45,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
@@ -507,25 +782,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Users\\IUserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:23:38.342Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:23:38.342Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Program.cs",
-              "RelativeDocumentMoniker": "WebDesignProject\\Program.cs",
-              "ToolTip": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Program.cs",
-              "RelativeToolTip": "WebDesignProject\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T13:11:20.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 43,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\appsettings.json",
               "RelativeDocumentMoniker": "WebDesignProject\\appsettings.json",
@@ -533,12 +794,11 @@
               "RelativeToolTip": "WebDesignProject\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-14T13:08:42.534Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T13:08:42.534Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 44,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
@@ -546,12 +806,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Users\\UserRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:23:57.872Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:23:57.872Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 46,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\appsettings.Development.json",
               "RelativeDocumentMoniker": "WebDesignProject\\appsettings.Development.json",
@@ -559,12 +818,11 @@
               "RelativeToolTip": "WebDesignProject\\appsettings.Development.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-19T13:47:26.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-19T13:47:26.257Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 47,
               "Title": "ReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
@@ -572,12 +830,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Reviews\\ReviewRepository.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:45:53.211Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:45:53.211Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 48,
               "Title": "IReviewRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
@@ -585,12 +842,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Reviews\\IReviewRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T16:25:53.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T16:25:53.643Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 49,
               "Title": "ResourceRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
@@ -598,12 +854,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Resources\\ResourceRepository.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAowDwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:20:47.111Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:20:47.111Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 50,
               "Title": "IResourceRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
@@ -611,12 +866,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Resources\\IResourceRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:34:11.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:34:11.042Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 51,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
@@ -624,12 +878,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Category\\ICategoryRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:25:46.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:25:46.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 52,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
@@ -637,12 +890,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Repositories\\Category\\CategoryRepository.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T22:26:00.728Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T22:26:00.728Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 53,
               "Title": "Review.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Entities\\Review.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Entities\\Review.cs",
@@ -650,12 +902,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Entities\\Review.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T12:17:47.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T12:17:47.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 54,
               "Title": "UpdateReviewDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
@@ -663,12 +914,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\UpdateReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:44:51.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:44:51.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 55,
               "Title": "ReviewDto.cs",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
               "RelativeDocumentMoniker": "WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
@@ -676,12 +926,11 @@
               "RelativeToolTip": "WebDesignProject\\Data\\Dtos\\Reviews\\ReviewDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-15T14:40:57.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T14:40:57.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 56,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\P-Mac\\source\\repos\\WebDesignProject\\WebDesignProject\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "WebDesignProject\\Properties\\launchSettings.json",
@@ -689,8 +938,7 @@
               "RelativeToolTip": "WebDesignProject\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-14T13:08:47.922Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-14T13:08:47.922Z"
             }
           ]
         }

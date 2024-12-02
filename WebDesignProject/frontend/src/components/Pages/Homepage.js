@@ -19,10 +19,13 @@ const HomePage = () => {
                     <p className="tagline">
                         This project is created for educational purposes, combining learning and practice.
                     </p>
-                    <div className="resource-rect" onClick={() => window.location.href = '/resources'}>
-                        <img src="resource-icon.svg" alt="Resource" className="resource-img" />
-                        <p>Explore Resources</p>
-                    </div>
+                    <button
+                        className="resource-btn"
+                        onClick={() => window.location.href = '/resources'}
+                    >
+                        <img src="open-book.svg" alt="Resource" />
+                        Explore Resources
+                    </button>
                 </section>
             </main>
             <Footer onLearnMore={toggleModal} />

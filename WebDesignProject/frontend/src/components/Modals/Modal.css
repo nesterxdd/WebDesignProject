@@ -1,53 +1,61 @@
-﻿/* Modal.css */
-
-.modal-overlay {
+﻿.modal {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     z-index: 1000;
 }
 
-.modal {
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    max-width: 500px;
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
     width: 90%;
-    text-align: center;
-    animation: fadeIn 0.3s ease-out;
+    max-width: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.close-btn {
-    background: none;
-    border: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #333;
-    position: absolute;
-    top: 15px;
-    right: 15px;
-    cursor: pointer;
-}
-
-    .close-btn:hover {
-        color: #999;
+    .modal-content h2 {
+        margin-top: 0;
+        color: black;
+        align-self: center;
+        text-align: center;
     }
 
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
+    .modal-content .error {
+        color: red;
+        margin: 10px 0;
     }
 
-    to {
-        opacity: 1;
-        transform: scale(1);
+    .modal-content input {
+        width: 95%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
     }
-}
+
+    .modal-content .btn {
+        padding: 10px;
+        background-color: #61dafb;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin: 10px 0;
+        cursor: pointer;
+        width: 100%;
+    }
+
+        .modal-content .btn.secondary {
+            background-color: #ccc;
+            margin-top: 10px;
+        }
+
+        .modal-content .btn:hover {
+            background-color: #21a1f1;
+        }
