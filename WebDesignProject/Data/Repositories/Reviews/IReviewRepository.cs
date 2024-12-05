@@ -7,5 +7,9 @@
         Task<Review> GetAsync(int resourceId, int reviewId);
         Task InsertAsync(Review review);
         Task UpdateAsync(Review review);
+
+        Task<IEnumerable<Review>> GetReviewsByUserAsync(int userId);
+
+        Task<Review> GetByIdAsync(int reviewId);
     }
 }

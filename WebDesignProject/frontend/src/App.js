@@ -4,6 +4,7 @@ import HomePage from './components/Pages/Homepage';
 import Resources from './components/Pages/ResourcesPage';
 import ProfilePage from './components/Pages/ProfilePage';
 import { AuthProvider } from './utils/AuthContext'; // Import AuthProvider
+import ReviewsPage from './components/Pages/ReviewsPage';
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
                 <Route path="/" element={<HomePage />} />
                 <Route path="/resources" element={<Resources />} />
                 <Route path="/profile" element={<ProfilePage />} />
+                    <Route path="/my-reviews" element={<ReviewsPage />} />
             </Routes>
         </Router>
         </AuthProvider>

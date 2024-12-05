@@ -6,6 +6,7 @@ using AutoMapper;
 using WebDesignProject.Data.Dtos;
 using System.Security.Claims;
 using Microsoft.EntityFrameworkCore;
+using WebDesignProject.Data.Repositories.Reviews;
 
 namespace WebDesignProject.Controllers
 {
@@ -16,11 +17,13 @@ namespace WebDesignProject.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly IMapper _mapper;
+        private readonly IReviewRepository _reviewRepository;
 
-        public UserController(IUserRepository userRepository, IMapper mapper)
+        public UserController(IUserRepository userRepository, IMapper mapper, IReviewRepository reviewrepository)
         {
             _userRepository = userRepository;
             _mapper = mapper;
+            _reviewRepository = reviewrepository;
         }
 
         // Admins can get all users
@@ -194,6 +197,36 @@ namespace WebDesignProject.Controllers
 
             return Ok(_mapper.Map<UserDto>(user));
         }
+
+        [HttpGet("{userId}/reviews")]
+        public async Task<ActionResult<IEnumerable<ReviewDto>>> GetUserReviews(int userId)
+        {
+            // Validate that the logged-in user matches the requested userId, or allow admin access
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+            if (userIdFromToken != userId && !User.IsInRole("admin"))
+            {
+                return Forbid("You can only view your own reviews.");
+            }
+
+            // Fetch reviews for the user
+            var reviews = await _reviewRepository.GetReviewsByUserAsync(userId);
+
+            if (!reviews.Any())
+            {
+                return NotFound("No reviews found for this user.");
+            }
+
+            return Ok(reviews.Select(r => _mapper.Map<ReviewDto>(r)));
+        }
+
+        [HttpGet("me/reviews")]
+        public async Task<ActionResult<IEnumerable<ReviewDto>>> GetCurrentUserReviews()
+        {
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+            return await GetUserReviews(userIdFromToken);
+        }
+
+
 
 
     }

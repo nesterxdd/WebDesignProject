@@ -1,10 +1,17 @@
-﻿import React, { useState, useEffect } from 'react';
+﻿import React, { useContext, useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { AuthContext } from '../../utils/AuthContext';
 import axiosInstance from '../../utils/axiosInstance';
 import Header from '../GeneralComponents/Header';
 import Footer from '../GeneralComponents/Footer';
+import LoginModal from '../Modals/LoginModal';
 import './ProfilePage.css';
 
 const ProfilePage = () => {
+    const { userToken, handleLogin, handleLogout } = useContext(AuthContext);
+    const isLoggedIn = !!userToken;
+    const navigate = useNavigate(); // Initialize navigate for redirection
+
     const [user, setUser] = useState({
         name: '',
         email: '',
@@ -18,39 +25,38 @@ const ProfilePage = () => {
         newPassword: '',
         confirmPassword: '',
     });
+    const [showLoginModal, setShowLoginModal] = useState(!isLoggedIn);
 
-    // Fetch user data on component mount
+    // Fetch user data when the component mounts or when the token changes
     useEffect(() => {
-        const fetchUserData = async () => {
-            try {
-                const response = await axiosInstance.get('/users/me', {
-                    headers: {
-                        Authorization: `Bearer ${localStorage.getItem('token')}`,
-                    },
-                });
-                setUser(response.data);
-            } catch (err) {
-                setError('Error fetching user data: ' + (err.response?.data?.message || err.message));
-                console.error(err);
-            }
-        };
+        if (userToken) {
+            const fetchUserData = async () => {
+                try {
+                    const response = await axiosInstance.get('/users/me', {
+                        headers: {
+                            Authorization: `Bearer ${userToken}`,
+                        },
+                    });
+                    setUser(response.data);
+                } catch (err) {
+                    setError('Error fetching user data: ' + (err.response?.data?.message || err.message));
+                    console.error(err);
+                }
+            };
+            fetchUserData();
+        }
+    }, [userToken]);
 
-        fetchUserData();
-    }, []);
-
-    // Handle input changes for user profile
     const handleInputChange = (e) => {
         const { name, value } = e.target;
         setUser({ ...user, [name]: value });
     };
 
-    // Handle input changes for password form
     const handlePasswordChange = (e) => {
         const { name, value } = e.target;
         setPasswordData({ ...passwordData, [name]: value });
     };
 
-    // Update user profile
     const handleUpdateUser = async () => {
         const updateData = {
             name: user.name,
@@ -60,7 +66,7 @@ const ProfilePage = () => {
         try {
             const response = await axiosInstance.put(`/users/${user.id}`, updateData, {
                 headers: {
-                    Authorization: `Bearer ${localStorage.getItem('token')}`,
+                    Authorization: `Bearer ${userToken}`,
                 },
             });
             setUser(response.data);
@@ -73,7 +79,6 @@ const ProfilePage = () => {
         }
     };
 
-    // Update password
     const handleChangePassword = async () => {
         if (passwordData.newPassword !== passwordData.confirmPassword) {
             setError('New passwords do not match');
@@ -84,7 +89,7 @@ const ProfilePage = () => {
         try {
             await axiosInstance.put(`/users/update-password/${user.id}`, passwordData, {
                 headers: {
-                    Authorization: `Bearer ${localStorage.getItem('token')}`,
+                    Authorization: `Bearer ${userToken}`,
                 },
             });
             setSuccess('Password updated successfully');
@@ -97,9 +102,17 @@ const ProfilePage = () => {
         }
     };
 
+    const handleNavigateToReviews = () => {
+        navigate('/my-reviews'); // Redirect to the reviews management page
+    };
+
     return (
         <>
-            <Header isLoggedIn={true} userData={user} />
+            <Header
+                isLoggedIn={isLoggedIn}
+                userData={user}
+                onLogout={handleLogout}
+            />
             <div className="profile-page">
                 <h2>Manage Profile</h2>
                 {error && <p className="error-message">{error}</p>}
@@ -164,8 +177,27 @@ const ProfilePage = () => {
                         Change Password
                     </button>
                 </div>
+
+                <div className="reviews-section">
+                    <h3>Manage Reviews</h3>
+                    <button
+                        className="update-profile-btn"
+                        onClick={handleNavigateToReviews}
+                    >
+                        Go to Manage Reviews
+                    </button>
+                </div>
             </div>
             <Footer />
+            {showLoginModal && (
+                <LoginModal
+                    onClose={() => setShowLoginModal(false)}
+                    onLoginSuccess={(token) => {
+                        handleLogin(token);
+                        setShowLoginModal(false);
+                    }}
+                />
+            )}
         </>
     );
 };

@@ -2,5 +2,10 @@
 
 namespace WebDesignProject
 {
-    public record CreateReviewDto([Required] int userId, [Required] string comment, [Required] int rating);
+    public record CreateReviewDto(
+        [Required] int UserId,
+        [Required] string Comment,
+        [Required, Range(1, 5)] int Rating,
+        [Required] int ResourceId // The resource being reviewed
+    );
 }

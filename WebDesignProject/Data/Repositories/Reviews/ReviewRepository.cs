@@ -38,5 +38,20 @@ namespace WebDesignProject.Data.Repositories.Reviews
             _mycontext.Reviews.Remove(review);
             await _mycontext.SaveChangesAsync();
         }
+
+        public async Task<IEnumerable<Review>> GetReviewsByUserAsync(int userId)
+        {
+            return await _mycontext.Reviews.Where(r => r.UserId == userId).ToListAsync();
+        }
+
+        public async Task<Review> GetByIdAsync(int reviewId)
+        {
+            return await _mycontext.Reviews
+                .FirstOrDefaultAsync(r => r.Id == reviewId);
+        }
+
+
+
+
     }
 }
