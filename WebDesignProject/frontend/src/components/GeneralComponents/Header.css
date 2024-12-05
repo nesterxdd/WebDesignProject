@@ -1,57 +1,72 @@
 ﻿.header {
-    background-color: #282c34; /* Dark theme */
-    color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; /* Align logo and nav items to opposite sides */
     align-items: center;
     padding: 10px 20px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: sticky;
+    background-color: #f4f4f4;
+    width: 100%; /* Full width */
+    box-sizing: border-box; /* Include padding in width */
+    position: sticky; /* Keep the header fixed at the top */
     top: 0;
-    z-index: 1000;
+    z-index: 1000; /* Ensure it's above other elements */
 }
 
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
-    font-family: 'Poppins', sans-serif; /* Custom font */
+    font-family: 'Poppins', sans-serif; /* Consistent font */
     cursor: pointer;
+    color: #21a1f1; /* Ensure good contrast for the logo text */
+    text-decoration: none; /* Remove default underline for links */
 }
 
+    .logo:hover {
+        color: #61dafb; /* Optional: Add hover effect for the logo */
+    }
+
 .nav {
-    display: flex; /* Ensures flexbox layout */
-    justify-content: flex-start; /* Align the items to the left */
-    align-items: center; /* Center items vertically */
-    gap: 15px; /* Space between items */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center vertically */
+    gap: 20px; /* General space between nav items */
 }
 
     .nav ul {
-        display: flex; /* Ensure list items are laid out in a row */
-        padding: 0; /* Remove default list padding */
-        margin: 0; /* Remove default list margin */
-        list-style: none; /* Remove default list bullets */
+        display: flex; /* Horizontal layout for list items */
+        padding: 0; /* Remove default padding */
+        margin: 0; /* Remove default margin */
+        list-style: none; /* Remove bullets */
     }
 
     .nav li {
-        display: inline-flex; /* Ensures each list item is an inline block in a row */
+        display: inline-flex; /* Inline block layout */
     }
 
     .nav a,
     .nav button {
         color: white;
-        text-decoration: none;
-        background-color: #61dafb;
-        border: none;
-        margin-right: 10px;
-        padding: 8px 15px;
+        text-decoration: none; /* Remove underline */
+        background-color: #61dafb; /* Button background */
+        border: none; /* Remove default border */
+        padding: 8px 15px; /* Padding for clickable area */
         border-radius: 5px;
         font-size: 1rem;
-        font-family: 'Poppins', sans-serif;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
+        font-family: 'Poppins', sans-serif; /* Consistent font */
+        cursor: pointer; /* Pointer cursor for buttons */
+        transition: background-color 0.3s ease; /* Smooth hover transition */
     }
 
         .nav a:hover,
         .nav button:hover {
-            background-color: #21a1f1;
+            background-color: #21a1f1; /* Hover effect */
         }
+
+    .nav .logout-btn,
+    .nav .profile-btn {
+        margin-right: 10px; /* Add specific spacing between buttons */
+    }
+
+/* If logout and manage profile are in a container, apply gap to the container */
+.nav-actions {
+    display: flex;
+    gap: 15px; /* Space between logout and profile buttons */
+}

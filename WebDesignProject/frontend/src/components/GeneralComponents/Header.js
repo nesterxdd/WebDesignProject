@@ -1,33 +1,56 @@
-﻿import React from 'react';
+﻿import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Header.css';
 
-const Header = ({ isLoggedIn, onLoginClick, onLogout }) => {
+const Header = ({ isLoggedIn, onLoginClick, onRegisterClick, onLogout, userData }) => {
+    const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
+    const navigate = useNavigate();
+
+    const toggleProfileMenu = () => {
+        setIsProfileMenuOpen((prevState) => !prevState);
+    };
+
+    const handleManageProfile = () => {
+        navigate('/profile');
+    };
+
+    const handleLogoClick = () => {
+        navigate('/'); // Redirect to home page
+    };
+
     return (
         <header className="header">
-            <h1 className="logo">MyProject</h1>
-            <nav className="nav">
-                <ul>
-                    {!isLoggedIn ? (
-                        <>
-                            <li>
-                                <button onClick={onLoginClick}>Login</button>
-                            </li>
-                            <li>
-                                <button>Register</button>
-                            </li>
-                        </>
-                    ) : (
-                        <>
-                            <li>
-                                <button onClick={onLogout}>Logout</button>
-                            </li>
-                            <li>
-                                <button>Profile</button>
-                            </li>
-                        </>
-                    )}
-                </ul>
-            </nav>
+            <div className="logo" onClick={handleLogoClick} style={{ cursor: 'pointer' }}>
+                MyProject
+            </div>
+            <div className="nav">
+                {isLoggedIn ? (
+                    <>
+                        <button onClick={toggleProfileMenu} className="btn profile-btn">
+                            {userData ? `${userData.name}'s Profile` : 'User Profile'}
+                        </button>
+                        {isProfileMenuOpen && (
+                            <div className="profile-menu">
+                                <button className="profile-btn" onClick={onLogout}>
+                                    Logout
+                                </button>
+                                <button className="profile-btn" onClick={handleManageProfile}>
+                                    Manage Profile
+                                </button>
+                            </div>
+                        )}
+                    </>
+                ) : (
+                    <>
+                        <button onClick={onLoginClick} className="btn login-btn">
+                            Login
+                        </button>
+                        <button onClick={onRegisterClick} className="btn register-btn">
+                            Register
+                        </button>
+                    </>
+                )}
+            </div>
         </header>
     );
 };

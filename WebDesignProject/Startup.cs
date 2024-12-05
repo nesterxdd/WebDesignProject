@@ -25,7 +25,7 @@ public class Startup
 
         // Database context
         services.AddDbContext<MyContext>(options =>
-            options.UseSqlServer("Server=NESTERXDD\\SQLEXPRESS;Database=WebDesignProject;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"));
+            options.UseSqlServer("Server=NESTERXDD\\SQLEXPRESS;Database=WebDesignProject1;Trusted_Connection=True;TrustServerCertificate=True;MultipleActiveResultSets=true;"));
 
         // Registering AuthService as a scoped service
         services.AddScoped<AuthService>(); // Add this line

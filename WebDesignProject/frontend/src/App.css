@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* Ensure footer sticks to the bottom */
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+  padding: 20px;
+}
+
+footer {
+  margin-top: auto;
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Fix header overflow */
+header {
+  width: 100%;
+  background-color: #343a40;
+  color: white;
+  padding: 10px 20px;
+  box-sizing: border-box;
+  overflow: hidden; /* Prevent overflow */
+}
+
+header h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+/* General styling tweaks */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+

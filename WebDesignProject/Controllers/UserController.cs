@@ -5,6 +5,7 @@ using WebDesignProject.Data;
 using AutoMapper;
 using WebDesignProject.Data.Dtos;
 using System.Security.Claims;
+using Microsoft.EntityFrameworkCore;
 
 namespace WebDesignProject.Controllers
 {
@@ -30,8 +31,6 @@ namespace WebDesignProject.Controllers
             return (await _userRepository.GetAsync()).Select(u => _mapper.Map<UserDto>(u));
         }
 
-        // Allow a user to get their own data (if they are accessing their own user ID)
-        // Teachers and Admins can get a specific user by ID (including their own)
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> Get(int id)
         {
@@ -47,18 +46,21 @@ namespace WebDesignProject.Controllers
                     return NotFound();
                 }
 
-                return Ok(_mapper.Map<UserDto>(user));
+                var userDto = _mapper.Map<UserDto>(user); // Ensure CreatedAt is included
+                return Ok(userDto);
             }
 
             return Unauthorized(new { message = "You can only access your own data" });
         }
 
-        // Only Admins can create a new user
         [HttpPost]
         [Authorize(Roles = "admin")]
         public async Task<ActionResult<UserDto>> Post(CreateUserDto userDto)
         {
             var user = _mapper.Map<User>(userDto);
+            // Directly assign the plain password instead of hashing
+            user.PasswordHash = userDto.PasswordHash;
+
             await _userRepository.InsertAsync(user);
             return Created($"/api/users/{user.Id}", _mapper.Map<UserDto>(user));
         }
@@ -67,10 +69,11 @@ namespace WebDesignProject.Controllers
         [Authorize]
         public async Task<ActionResult<UserDto>> Put(int id, UpdateUserDto userDto)
         {
-            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Extract user ID from token
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+            var isAdmin = User.IsInRole("admin");
 
-            // Ensure the user is updating their own data or is an admin
-            if (id != userIdFromToken && !User.IsInRole("admin"))
+            // Validate user permissions
+            if (id != userIdFromToken && !isAdmin)
             {
                 return Forbid("You can only update your own account.");
             }
@@ -78,23 +81,36 @@ namespace WebDesignProject.Controllers
             var user = await _userRepository.GetAsync(id);
             if (user == null)
             {
-                return NotFound(); // User not found
+                return NotFound(new { message = "User not found." });
             }
 
-            // Retain current role if the role is not provided in the DTO
-            if (userDto.Role == null)
+            // Prevent non-admins from changing roles
+            if (!isAdmin && userDto.Role != null && userDto.Role != user.Role)
             {
-                userDto.Role = user.Role;
+                return BadRequest(new { message = "You are not allowed to change roles." });
             }
 
-            // Update the user data
-            _mapper.Map(userDto, user);
-            await _userRepository.UpdateAsync(user);
+            // Update the user information (only name and email here, no password handling)
+            user.Name = userDto.Name ?? user.Name;
+            user.Email = userDto.Email ?? user.Email;
 
-            return Ok(_mapper.Map<UserDto>(user)); // Return the updated user
+            // Admin can update roles
+            if (isAdmin && userDto.Role != null)
+            {
+                user.Role = userDto.Role;
+            }
+
+            try
+            {
+                await _userRepository.UpdateAsync(user);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new { message = "An error occurred while saving changes.", details = ex.Message });
+            }
+
+            return Ok(_mapper.Map<UserDto>(user));
         }
-
-
 
 
         [HttpDelete("{id}")]
@@ -113,7 +129,70 @@ namespace WebDesignProject.Controllers
             if (user == null) return NotFound();
 
             await _userRepository.DeleteAsync(user);
-            return NoContent(); 
+            return NoContent();
+        }
+
+        // UserController.cs
+        [HttpGet("me")]
+        [Authorize]
+        public async Task<ActionResult<UserDto>> GetUserData()
+        {
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name)); // Get user ID from the token
+
+            var user = await _userRepository.GetAsync(userIdFromToken); // Fetch user from the database
+
+            if (user == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(_mapper.Map<UserDto>(user)); // Return the user data
+        }
+
+        [HttpPut("update-password/{id}")]
+        [Authorize]
+        public async Task<ActionResult<UserDto>> UpdatePassword(int id, UpdatePasswordDto passwordDto)
+        {
+            var userIdFromToken = int.Parse(User.FindFirstValue(ClaimTypes.Name));
+            var isAdmin = User.IsInRole("admin");
+
+            // Validate user permissions
+            if (id != userIdFromToken && !isAdmin)
+            {
+                return Forbid("You can only update your own account.");
+            }
+
+            var user = await _userRepository.GetAsync(id);
+            if (user == null)
+            {
+                return NotFound(new { message = "User not found." });
+            }
+
+            // Check if new password matches confirmation
+            if (passwordDto.NewPassword != passwordDto.ConfirmPassword)
+            {
+                return BadRequest(new { message = "New password and confirmation do not match." });
+            }
+
+            // If the user is not an admin, validate the current password (plain text comparison)
+            if (!isAdmin && user.PasswordHash != passwordDto.CurrentPassword)
+            {
+                return BadRequest(new { message = "Current password is incorrect." });
+            }
+
+            // Update password directly with the new one (no hashing)
+            user.PasswordHash = passwordDto.NewPassword;
+
+            try
+            {
+                await _userRepository.UpdateAsync(user);
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, new { message = "An error occurred while saving changes.", details = ex.Message });
+            }
+
+            return Ok(_mapper.Map<UserDto>(user));
         }
 
 

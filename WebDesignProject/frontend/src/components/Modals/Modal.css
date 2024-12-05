@@ -64,3 +64,35 @@
     .modal-content .btn:hover {
         background-color: #21a1f1;
     }
+
+/* Input Group Styling */
+.input-group {
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+    .input-group label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #333;
+    }
+
+/* Dropdown (Select) Styling */
+.input-field {
+    width: 95%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+    .input-field:hover {
+        border-color: #4CAF50; /* Matches button color */
+        outline: none;
+    }
+
+    .input-field:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Slight glow effect */
+    }

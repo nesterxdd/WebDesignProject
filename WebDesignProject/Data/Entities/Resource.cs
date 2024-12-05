@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Converters;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -27,6 +29,7 @@ namespace WebDesignProject
         public ICollection<Category> Categories { get; set; }
 
         [Required]
+        [System.Text.Json.Serialization.JsonConverter(typeof(IsoDateTimeConverter))]  // Ensure it's in ISO 8601 format
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
         public DateTime UpdatedAt { get; set; }

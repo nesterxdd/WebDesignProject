@@ -1,32 +1,38 @@
 ﻿.footer {
-    background-color: #1c1c1c; /* Darker background */
-    color: white;
+    background-color: #f4f4f4;
     text-align: center;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif; /* Custom font */
-    font-size: 0.9rem;
-    border-top: 2px solid #61dafb;
-    margin-top: auto; /* Ensures the footer stays at the bottom */
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    position: fixed; /* Fixed position so it stays at the bottom */
+    bottom: 0;
+    left: 0;
+    transition: transform 0.3s ease-in-out; /* Smooth visibility transition */
+    transform: translateY(100%); /* Hide footer by default */
+    z-index: 1000; /* Ensure it's above other elements */
 }
 
     .footer p {
-        margin: 10px 0;
+        margin: 5px 0; /* Adjust spacing for footer text */
+        font-size: 0.9rem; /* Slightly smaller text size */
+        color: #555; /* Subtle text color */
     }
 
     .footer a {
         color: #61dafb;
         text-decoration: none;
         margin: 0 5px;
-        font-size: 1rem;
+        font-size: 0.9rem;
+        transition: color 0.3s ease; /* Smooth hover effect */
     }
 
         .footer a:hover {
             color: #21a1f1;
-            text-decoration: underline;
+            text-decoration: underline; /* Add underline on hover */
         }
 
     .footer .btn {
-        margin-top: 10px;
+        margin-top: 10px; /* Space above the button */
         background-color: #61dafb;
         color: white;
         border: none;
@@ -34,9 +40,17 @@
         border-radius: 5px;
         font-size: 1rem;
         cursor: pointer;
-        transition: background-color 0.3s ease;
+        transition: background-color 0.3s ease; /* Smooth hover effect */
     }
 
         .footer .btn:hover {
-            background-color: #21a1f1;
+            background-color: #21a1f1; /* Darker blue on hover */
         }
+
+    .footer.visible {
+        transform: translateY(0); /* Show footer */
+    }
+
+    .footer.hidden {
+        transform: translateY(100%); /* Hide footer */
+    }
