@@ -8,5 +8,6 @@ namespace WebDesignProject.Data
         Task<IEnumerable<Resource>> GetAsync();
         Task<Resource> InsertAsync(Resource resource, ICollection<int> categoryIds);
         Task<Resource> UpdateAsync(Resource resource, ICollection<int> categoryIds);
+     
     }
 }

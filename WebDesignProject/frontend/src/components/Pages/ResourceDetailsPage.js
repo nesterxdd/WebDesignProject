@@ -47,7 +47,8 @@ const ResourceDetailsPage = () => {
         }
 
         try {
-            const response = await axiosInstance.post(
+            // Create a new review
+            await axiosInstance.post(
                 `/reviews`,
                 {
                     comment: newReview.comment,
@@ -60,8 +61,12 @@ const ResourceDetailsPage = () => {
                     },
                 }
             );
-            setReviews((prev) => [...prev, response.data]);
 
+            // Fetch updated reviews to ensure userName is included
+            const reviewsResponse = await axiosInstance.get(`/resource/${resourceId}/reviews`);
+            setReviews(reviewsResponse.data);
+
+            // Reset form and display success message
             setNewReview({ comment: '', rating: '' });
             setSuccess('Review added successfully.');
             setError('');
@@ -70,6 +75,7 @@ const ResourceDetailsPage = () => {
             setError(err.response?.data?.message || 'Error adding review.');
         }
     };
+
 
     return (
         <div className="resource-details-page">
@@ -103,10 +109,11 @@ const ResourceDetailsPage = () => {
                             {reviews.length > 0 ? (
                                 reviews.map((review) => (
                                     <div key={review.id} className="review-item">
-                                        <p>Rating: {review.rating}</p>
-                                        <p>Comment: {review.comment}</p>
+                                        <p><strong>Author:</strong> {review.userName}</p>
+                                        <p><strong>Rating:</strong> {review.rating}</p>
+                                        <p><strong>Comment:</strong> {review.comment}</p>
                                         <p>
-                                            Last Action:{" "}
+                                            <strong>Last Action:</strong>{" "}
                                             {review.updatedAt
                                                 ? new Date(review.updatedAt).toLocaleString()
                                                 : new Date(review.createdAt).toLocaleString()}

@@ -11,15 +11,21 @@ namespace WebDesignProject.Data.Repositories.Reviews
             _mycontext = myContext;
         }
 
-        public async Task<Review> GetAsync(int resourceId, int reviewId)
-        {
-            return await _mycontext.Reviews.FirstOrDefaultAsync(r => r.ResourceId == resourceId && r.Id == reviewId);
-        }
-
         public async Task<IEnumerable<Review>> GetAsync(int resourceId)
         {
-            return await _mycontext.Reviews.Where(r => r.ResourceId == resourceId).ToListAsync();
+            return await _mycontext.Reviews
+                .Include(r => r.User) // Include the User entity
+                .Where(r => r.ResourceId == resourceId)
+                .ToListAsync();
         }
+
+        public async Task<string> GetUserNameByIdAsync(int userId)
+        {
+            var user = await _mycontext.Users.FirstOrDefaultAsync(u => u.Id == userId);
+            return user?.Name ?? "Anonymous";
+        }
+
+
 
         public async Task InsertAsync(Review review)
         {
@@ -47,8 +53,11 @@ namespace WebDesignProject.Data.Repositories.Reviews
         public async Task<Review> GetByIdAsync(int reviewId)
         {
             return await _mycontext.Reviews
-                .FirstOrDefaultAsync(r => r.Id == reviewId);
+            .Include(r => r.User) // Include the User entity
+            .FirstOrDefaultAsync(r => r.Id == reviewId);
         }
+
+
 
 
 

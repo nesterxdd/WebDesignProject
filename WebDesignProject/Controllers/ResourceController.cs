@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using WebDesignProject.Data;
+using WebDesignProject.Data.Repositories.Reviews;
 
 namespace WebDesignProject
 {
@@ -21,10 +22,12 @@ namespace WebDesignProject
     {
         private readonly IResourceRepository _iresourcerepository;
         private readonly IMapper _mapper;
-        public ResourceController(IResourceRepository iresourcerepository, IMapper mapper)
+        private readonly IReviewRepository reviewRepository;
+        public ResourceController(IResourceRepository iresourcerepository, IMapper mapper, IReviewRepository rev)
         {
             _iresourcerepository = iresourcerepository;
             _mapper = mapper;
+            reviewRepository = rev;
         }
 
         [HttpGet]
@@ -99,16 +102,32 @@ namespace WebDesignProject
                 return NotFound(new { message = $"Resource with id:{id} does not exist" });
             }
 
-            // Fetch all reviews associated with this resource
-            var reviews = resource.Reviews; // Assuming the `Resource` entity has a `Reviews` navigation property
+            var reviews = await reviewRepository.GetAsync(id);
 
-            if (reviews == null || !reviews.Any())
+            var reviewDtos = new List<ReviewDto>();
+
+            foreach (var review in reviews)
             {
-                return Ok(new List<ReviewDto>()); // Return an empty list if no reviews exist
+                // Fetch user name based on UserId
+                var userName = await reviewRepository.GetUserNameByIdAsync(review.UserId);
+                var reviewDto = new ReviewDto(
+                    review.Id,
+                    review.Comment,
+                    review.Rating,
+                    review.ResourceId,
+                    review.UserId,
+                    userName, // Set the fetched user name
+                    review.CreatedAt,
+                    review.UpdatedAt
+                );
+                reviewDtos.Add(reviewDto);
             }
 
-            return Ok(reviews.Select(r => _mapper.Map<ReviewDto>(r)));
+            return Ok(reviewDtos);
         }
+
+
+
 
     }
 }
