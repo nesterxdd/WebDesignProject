@@ -12,12 +12,17 @@ const ResourceDetailsPage = () => {
     const { userToken, handleLogin, handleLogout } = useContext(AuthContext);
     const isLoggedIn = !!userToken;
 
-    const { resourceId } = useParams(); // Get resourceId from URL
+    const { resourceId } = useParams();
     const navigate = useNavigate();
 
     const [resource, setResource] = useState(null);
     const [reviews, setReviews] = useState([]);
+    const [categories, setCategories] = useState([]);
+    const [selectedCategories, setSelectedCategories] = useState([]);
+    const [isAdmin, setIsAdminOrTeacher] = useState(false);
+    const [currentUserId, setCurrentUserId] = useState(null);
     const [newReview, setNewReview] = useState({ comment: '', rating: '' });
+    const [editingReview, setEditingReview] = useState(null);
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
     const [showLoginModal, setShowLoginModal] = useState(false);
@@ -28,9 +33,26 @@ const ResourceDetailsPage = () => {
             try {
                 const resourceResponse = await axiosInstance.get(`/resource/${resourceId}`);
                 setResource(resourceResponse.data);
+                setSelectedCategories(resourceResponse.data.categories.map((c) => c.id));
 
                 const reviewsResponse = await axiosInstance.get(`/resource/${resourceId}/reviews`);
                 setReviews(reviewsResponse.data);
+
+                const categoriesResponse = await axiosInstance.get('/categories', {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    },
+                });
+                setCategories(categoriesResponse.data);
+
+                const userResponse = await axiosInstance.get('/users/me', {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    },
+                });
+                const role = userResponse.data.role;
+                setIsAdminOrTeacher(role === 'admin');
+                setCurrentUserId(userResponse.data.id);
             } catch (err) {
                 setError('Error fetching resource details: ' + (err.response?.data?.message || err.message));
                 console.error(err);
@@ -38,22 +60,21 @@ const ResourceDetailsPage = () => {
         };
 
         fetchResourceDetails();
-    }, [resourceId]);
+    }, [resourceId, userToken]);
 
-    const handleAddReview = async () => {
-        if (!newReview.comment || !newReview.rating) {
-            setError('Please fill in all fields.');
+    const handleAssignCategories = async () => {
+        if (!selectedCategories.length) {
+            setError('Please select at least one category.');
             return;
         }
 
         try {
-            // Create a new review
-            await axiosInstance.post(
-                `/reviews`,
+            // Make the PUT request with the current resource title and selected categories
+            await axiosInstance.put(
+                `/resource/${resourceId}`,
                 {
-                    comment: newReview.comment,
-                    rating: parseInt(newReview.rating),
-                    resourceId: parseInt(resourceId), // Include resourceId in the payload
+                    title: resource.title, // Include the current title of the resource
+                    categoriesIDs: selectedCategories, // Assign selected categories
                 },
                 {
                     headers: {
@@ -62,11 +83,51 @@ const ResourceDetailsPage = () => {
                 }
             );
 
-            // Fetch updated reviews to ensure userName is included
-            const reviewsResponse = await axiosInstance.get(`/resource/${resourceId}/reviews`);
-            setReviews(reviewsResponse.data);
+            setSuccess('Categories assigned successfully.');
+            setError('');
+        } catch (err) {
+            console.error('Error assigning categories:', err.response || err.message);
+            setError(err.response?.data?.message || 'Error assigning categories.');
+            setSuccess('');
+        }
+    };
 
-            // Reset form and display success message
+
+    const handleCategoryChange = (categoryId) => {
+        setSelectedCategories((prev) =>
+            prev.includes(categoryId) ? prev.filter((id) => id !== categoryId) : [...prev, categoryId]
+        );
+    };
+
+    const handleAddReview = async () => {
+        if (!newReview.comment || !newReview.rating) {
+            setError('Please fill in all fields.');
+            return;
+        }
+
+        try {
+            const userResponse = await axiosInstance.get('/users/me', {
+                headers: {
+                    Authorization: `Bearer ${userToken}`,
+                },
+            });
+            const userName = userResponse.data.name;
+
+            const response = await axiosInstance.post(
+                `/reviews`,
+                {
+                    comment: newReview.comment,
+                    rating: parseInt(newReview.rating),
+                    resourceId: parseInt(resourceId),
+                },
+                {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    },
+                }
+            );
+
+            setReviews((prev) => [...prev, { ...response.data, userName }]);
             setNewReview({ comment: '', rating: '' });
             setSuccess('Review added successfully.');
             setError('');
@@ -76,6 +137,49 @@ const ResourceDetailsPage = () => {
         }
     };
 
+    const handleDeleteReview = async (reviewId) => {
+        try {
+            await axiosInstance.delete(`/reviews/${reviewId}`, {
+                headers: {
+                    Authorization: `Bearer ${userToken}`,
+                },
+            });
+            setReviews((prev) => prev.filter((review) => review.id !== reviewId));
+            setSuccess('Review deleted successfully.');
+            setError('');
+        } catch (err) {
+            console.error('Error deleting review:', err.response || err.message);
+            setError(err.response?.data?.message || 'Error deleting review.');
+        }
+    };
+
+    const handleEditReview = (review) => setEditingReview(review);
+
+    const handleSaveEditedReview = async () => {
+        try {
+            const response = await axiosInstance.put(
+                `/reviews/${editingReview.id}`,
+                {
+                    comment: editingReview.comment,
+                    rating: editingReview.rating,
+                },
+                {
+                    headers: {
+                        Authorization: `Bearer ${userToken}`,
+                    },
+                }
+            );
+            setReviews((prev) =>
+                prev.map((review) => (review.id === editingReview.id ? response.data : review))
+            );
+            setEditingReview(null);
+            setSuccess('Review updated successfully.');
+            setError('');
+        } catch (err) {
+            console.error('Error updating review:', err.response || err.message);
+            setError(err.response?.data?.message || 'Error updating review.');
+        }
+    };
 
     return (
         <div className="resource-details-page">
@@ -96,34 +200,68 @@ const ResourceDetailsPage = () => {
                             Categories:{" "}
                             {resource.categories?.map((category) => category.name).join(", ") || "None"}
                         </p>
-                        <p>
-                            Created At:{" "}
-                            {resource.createdAt
-                                ? new Date(resource.createdAt).toLocaleDateString()
-                                : "Invalid Date"}
-                        </p>
                         <button onClick={() => navigate(-1)}>Back to Resources</button>
+
+                        {isAdmin && (
+                            <div className="category-management">
+                                <h2>Manage Categories</h2>
+                                <div className="existing-categories">
+                                    {categories.map((category) => (
+                                        <label key={category.id}>
+                                            <input
+                                                type="checkbox"
+                                                checked={selectedCategories.includes(category.id)}
+                                                onChange={() => handleCategoryChange(category.id)}
+                                            />
+                                            {category.name}
+                                        </label>
+                                    ))}
+                                </div>
+                                <button onClick={handleAssignCategories}>Assign Categories</button>
+                            </div>
+                        )}
 
                         <div className="reviews-section">
                             <h2>Reviews</h2>
-                            {reviews.length > 0 ? (
-                                reviews.map((review) => (
-                                    <div key={review.id} className="review-item">
-                                        <p><strong>Author:</strong> {review.userName}</p>
-                                        <p><strong>Rating:</strong> {review.rating}</p>
-                                        <p><strong>Comment:</strong> {review.comment}</p>
-                                        <p>
-                                            <strong>Last Action:</strong>{" "}
-                                            {review.updatedAt
-                                                ? new Date(review.updatedAt).toLocaleString()
-                                                : new Date(review.createdAt).toLocaleString()}
-                                        </p>
-                                    </div>
-                                ))
-                            ) : (
-                                <p>No reviews found for this resource.</p>
-                            )}
+                            {reviews.map((review) => (
+                                <div key={review.id} className="review-item">
+                                    {editingReview?.id === review.id ? (
+                                        <>
+                                            <textarea
+                                                value={editingReview.comment}
+                                                onChange={(e) =>
+                                                    setEditingReview({ ...editingReview, comment: e.target.value })
+                                                }
+                                            />
+                                            <input
+                                                type="number"
+                                                value={editingReview.rating}
+                                                onChange={(e) =>
+                                                    setEditingReview({ ...editingReview, rating: e.target.value })
+                                                }
+                                                min="1"
+                                                max="5"
+                                            />
+                                            <button onClick={handleSaveEditedReview}>Save</button>
+                                            <button onClick={() => setEditingReview(null)}>Cancel</button>
+                                        </>
+                                    ) : (
+                                        <>
+                                            <p><strong>Author:</strong> {review.userName}</p>
+                                            <p><strong>Rating:</strong> {review.rating}</p>
+                                            <p><strong>Comment:</strong> {review.comment}</p>
+                                            {isAdmin || review.userId === currentUserId ? (
+                                                <button onClick={() => handleDeleteReview(review.id)}>Delete</button>
+                                            ) : null}
+                                            {review.userId === currentUserId && (
+                                                <button onClick={() => handleEditReview(review)}>Edit</button>
+                                            )}
+                                        </>
+                                    )}
+                                </div>
+                            ))}
                         </div>
+
                         <div className="add-review">
                             <h2>Add Your Review</h2>
                             <textarea

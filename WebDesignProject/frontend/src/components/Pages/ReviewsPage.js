@@ -31,10 +31,15 @@ const ReviewsPage = () => {
                     },
                 });
                 setReviews(response.data);
-                setError('');
+                setError(''); // Clear any error messages
             } catch (err) {
-                console.error('Error fetching reviews:', err.response || err.message);
-                setError(err.response?.data?.message || 'Error fetching reviews.');
+                if (err.response?.status === 404) {
+                    setReviews([]); // No reviews found
+                    setError(''); // Clear error
+                } else {
+                    console.error('Error fetching reviews:', err.response || err.message);
+                    setError(err.response?.data?.message || 'Error fetching reviews.');
+                }
             }
         };
 

@@ -1,0 +1,41 @@
+﻿
+
+.add-category, .category-list {
+    margin-bottom: 20px;
+}
+
+    .add-category input, .category-item input {
+        margin-right: 10px;
+        padding: 5px;
+    }
+
+    .add-category button, .category-item button {
+        margin-left: 5px;
+        padding: 5px 10px;
+    }
+
+.category-list {
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.category-item {
+    display: flex;
+    justify-content: space-between; /* Aligns name and buttons */
+    align-items: center; /* Centers content vertically */
+    border-bottom: 1px solid #eee;
+    padding: 5px 0;
+}
+
+    .category-item input {
+        flex: 1; /* Input takes available space */
+        margin-right: 10px;
+    }
+
+    .category-item span {
+        flex: 1; /* Name takes available space */
+    }
+
+    .category-item button {
+        margin-left: 5px;
+    }

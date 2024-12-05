@@ -1,0 +1,114 @@
+﻿
+
+.content {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.users-list {
+    margin-bottom: 40px;
+}
+
+.user-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+    .user-item p {
+        margin: 0;
+        padding: 0;
+        flex: 1;
+        color: #555;
+    }
+
+    .user-item input,
+    .user-item select {
+        margin: 0 10px;
+        padding: 5px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .user-item button {
+        margin-left: 10px;
+        padding: 5px 10px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .user-item button:hover {
+            background-color: #0056b3;
+        }
+
+.create-user {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Increase the width */
+    width: 100%;
+    margin: 0 auto; /* Center the section */
+}
+
+    .create-user input,
+    .create-user select {
+        display: block;
+        width: 95%;
+        margin-bottom: 10px;
+        padding: 10px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+
+    }
+
+    .create-user button {
+        width: 95%;
+        margin: 0 auto; /* Center the section */
+        padding: 10px;
+        font-size: 16px;
+        color: #fff;
+        background-color: #28a745;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.2s;
+    }
+
+        .create-user button:hover {
+            background-color: #218838;
+        }
+
+.error-message {
+    color: red;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    margin-bottom: 20px;
+    text-align: center;
+}

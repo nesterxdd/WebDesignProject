@@ -1,10 +1,11 @@
 ﻿import React, { useState } from 'react';
-import './Modal.css'; // Import the modal CSS
-import { loginUser } from '../../utils/authService'; // Import the auth service
+import './Modal.css';
 
-const LoginModal = ({ onClose, onLoginSuccess }) => {
+const RegisterModal = ({ onClose, onRegisterSuccess }) => {
+    const [name, setName] = useState(''); // Add state for Name
     const [email, setEmail] = useState('');
-    const [password, setPassword] = useState('');
+    const [passwordHash, setPassword] = useState('');
+    const [role, setRole] = useState('Student'); // Default role
     const [error, setError] = useState(null);
 
     // Regular expression for basic email validation
@@ -13,7 +14,7 @@ const LoginModal = ({ onClose, onLoginSuccess }) => {
         return regex.test(email);
     };
 
-    const handleLogin = async () => {
+    const handleRegister = async () => {
         // Validate email format before submitting
         if (!isValidEmail(email)) {
             setError('Please enter a valid email address.');
@@ -21,37 +22,47 @@ const LoginModal = ({ onClose, onLoginSuccess }) => {
         }
 
         try {
-            // Call the loginUser utility function to authenticate
-            const token = await loginUser(email, password);
+            const response = await fetch('http://localhost:5054/api/auth/register', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ name, email, passwordHash, role }), // Sending name, email, password, and role
+            });
 
-            // Save the token in localStorage
-            localStorage.setItem('jwtToken', token);
+            const data = await response.json();
 
-            // Notify parent of successful login (if necessary)
-            onLoginSuccess(token);
+            if (!response.ok) {
+                throw new Error(data.error || 'Registration failed');
+            }
 
-            // Close the modal
-            onClose();
-
-            // Redirect user to profile or dashboard
+            onRegisterSuccess(data.message); // Notify parent of success
+            onClose(); // Close modal
         } catch (err) {
-            setError(err.message);
+            console.error("Registration Error:", err); // Log detailed error for debugging
+            setError(err.message); // Show error in the UI
         }
     };
 
-
-    const handleClickOutside = (e) => {
-        // Close the modal if the click is outside the modal content
-        if (e.target.classList.contains("modal")) {
+    const handleOutsideClick = (e) => {
+        if (e.target.className === 'modal') {
             onClose();
         }
     };
 
     return (
-        <div className="modal" onClick={handleClickOutside}> {/* Close on outside click */}
-            <div className="modal-content"> {/* modal-content class */}
-                <h2>Login</h2>
-                {error && <p className="error">{error}</p>} {/* error class */}
+        <div className="modal" onClick={handleOutsideClick}>
+            <div className="modal-content">
+                <h2>Register</h2>
+                {error && <p className="error">{error}</p>}
+                <input
+                    type="text"
+                    placeholder="Name"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                    className="input-field"
+                    autoComplete="name" // Autocomplete suggestion for name
+                />
                 <input
                     type="email"
                     placeholder="Email"
@@ -63,15 +74,29 @@ const LoginModal = ({ onClose, onLoginSuccess }) => {
                 <input
                     type="password"
                     placeholder="Password"
-                    value={password}
+                    value={passwordHash}
                     onChange={(e) => setPassword(e.target.value)}
                     className="input-field"
-                    autoComplete="current-password" // Autocomplete suggestion for password
+                    autoComplete="new-password"
                 />
-                <button onClick={handleLogin} className="btn login-btn">Login</button> {/* New button class */}
+                <div className="input-group">
+                    <label htmlFor="role-select">Select Role:</label>
+                    <select
+                        id="role-select"
+                        value={role}
+                        onChange={(e) => setRole(e.target.value)}
+                        className="input-field"
+                    >
+                        <option value="Student">Student</option>
+                       
+                    </select>
+                </div>
+                <button onClick={handleRegister} className="btn login-btn">
+                    Register
+                </button>
             </div>
         </div>
     );
 };
 
-export default LoginModal;
+export default RegisterModal;

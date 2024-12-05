@@ -43,7 +43,7 @@ namespace WebDesignProject
         }
 
         [HttpPut("{id}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin, teacher")]
         public async Task<ActionResult<CategoryDto>> Put(int id, UpdateCategoryDto categoryDto)
         {
             var category = await _categoryRepository.GetAsync(id);
@@ -55,7 +55,7 @@ namespace WebDesignProject
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin, teacher")]
         public async Task<IActionResult> Delete(int id)
         {
             var category = await _categoryRepository.GetAsync(id);

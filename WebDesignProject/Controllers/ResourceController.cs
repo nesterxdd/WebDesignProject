@@ -93,6 +93,8 @@ namespace WebDesignProject
             return NoContent();
         }
 
+
+
         [HttpGet("{id}/reviews")]
         public async Task<ActionResult<IEnumerable<ReviewDto>>> GetResourceReviews(int id)
         {

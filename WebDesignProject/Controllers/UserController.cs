@@ -87,18 +87,24 @@ namespace WebDesignProject.Controllers
                 return NotFound(new { message = "User not found." });
             }
 
-            // Prevent non-admins from changing roles
-            if (!isAdmin && userDto.Role != null && userDto.Role != user.Role)
-            {
-                return BadRequest(new { message = "You are not allowed to change roles." });
-            }
-
-            // Update the user information (only name and email here, no password handling)
+            // Update name and email
             user.Name = userDto.Name ?? user.Name;
             user.Email = userDto.Email ?? user.Email;
 
-            // Admin can update roles
-            if (isAdmin && userDto.Role != null)
+            // Update password if provided
+            if (!string.IsNullOrEmpty(userDto.Password))
+            {
+                // For non-admins, verify the current password first
+                if (!isAdmin && user.PasswordHash != userDto.CurrentPassword)
+                {
+                    return BadRequest(new { message = "Current password is incorrect." });
+                }
+
+                user.PasswordHash = userDto.Password; // Assign new password directly (consider hashing in production)
+            }
+
+            // Update roles if admin
+            if (isAdmin && !string.IsNullOrEmpty(userDto.Role))
             {
                 user.Role = userDto.Role;
             }
@@ -114,6 +120,7 @@ namespace WebDesignProject.Controllers
 
             return Ok(_mapper.Map<UserDto>(user));
         }
+
 
 
         [HttpDelete("{id}")]
