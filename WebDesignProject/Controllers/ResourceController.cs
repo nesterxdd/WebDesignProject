@@ -89,5 +89,26 @@ namespace WebDesignProject
             //204
             return NoContent();
         }
+
+        [HttpGet("{id}/reviews")]
+        public async Task<ActionResult<IEnumerable<ReviewDto>>> GetResourceReviews(int id)
+        {
+            var resource = await _iresourcerepository.GetAsync(id);
+            if (resource == null)
+            {
+                return NotFound(new { message = $"Resource with id:{id} does not exist" });
+            }
+
+            // Fetch all reviews associated with this resource
+            var reviews = resource.Reviews; // Assuming the `Resource` entity has a `Reviews` navigation property
+
+            if (reviews == null || !reviews.Any())
+            {
+                return Ok(new List<ReviewDto>()); // Return an empty list if no reviews exist
+            }
+
+            return Ok(reviews.Select(r => _mapper.Map<ReviewDto>(r)));
+        }
+
     }
 }
